@@ -1,0 +1,4892 @@
+@font-face {
+	font-family: MuseoSans;
+	src: url('../fuentes-coomeva/museosans_0.ttf');
+	
+}
+@font-face {
+	font-family: MuseoSans300;
+	src: url('../fuentes-coomeva/museosans_300.ttf');
+	
+}
+
+
+/* scroll down*/
+
+.contenedor-scroll{
+  
+  width: 100%;
+  
+
+}
+
+.img-scroll{
+  position: absolute;
+    top: 76%;
+    left: 50%;
+    
+}
+
+/*scroll down*/
+
+
+
+.tabla-inscripcion{
+  width: 100%;
+}
+
+.td-inscripcion{
+  height: 50px;
+}
+.td-inscripcion p{
+  color: #868988;
+  font-size: 18px;
+}
+
+.td-inscripcion1{
+  font-size: 18px;
+  height: 50px;
+  width: 80px;
+}
+body{
+	background-color: #e57936;
+	
+}
+
+.tabla-terminos {
+  margin: 0 auto;
+  width: 80%!important;
+
+}
+
+.tabla-terminos tr{
+  width: 200px!important;
+
+}
+.td-terminos{
+  width: 40px!important;
+}
+
+.p-terminos{
+    padding-top: 30px;
+}
+
+
+.p-terminos p{
+  font-family: MuseoSans300;
+  font-size: 20px;
+  color: #A8ACAB;
+}
+
+.p-terminos1{
+  font-family: MuseoSans300;
+    padding-top: 70px;
+}
+
+
+.p-terminos1 p{
+  font-family: MuseoSans300;
+  font-size: 20px;
+  color: #A8ACAB;
+}
+
+.footer-formulario{
+
+}
+
+.ti-arrow-right{
+  font-size: 14px!important;
+  padding-left: 12px;
+}
+
+.ti-arrow-left{
+  font-size: 14px!important;
+    font-weight: 600!important;
+    padding: 12px 18px!important;
+    
+  
+}
+
+.ti-arrow-left:before{
+  padding-right: 12px;
+}
+
+
+.boton-descarga{
+  background-color: #05A863;
+    color: white;
+    width: 200px;
+    height: 41px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+.boton-descarga a:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.lineas1{
+  display: none;
+}
+.lineas2{
+  color: #D8D8D8;
+
+}
+
+.condiciones{
+  color: #6E6F6F;
+  font-size: 11px;
+}
+.boton-descarga a{
+  background-color: #05A863;
+    color: white;
+    
+    
+}
+
+.boton-descarga span{
+  font-size: 10px;
+    
+    
+}
+
+.contratar{
+  padding-top: 40px;
+}
+
+
+#ocultar2{
+  padding-left: 0;
+}
+
+.boton-asesor{
+  
+  margin: 0 auto;
+    text-align:center;
+    color: green;
+    width: 317px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+
+.boton-asesor a{
+    
+    color:  green;
+    
+    
+}
+
+
+.boton-asesor span{
+    
+    font-size: 10px;
+}
+
+.boton-asesor a:hover{
+    text-decoration: none;
+    color: green;
+    
+}
+
+
+
+
+
+
+.boton-cotizacion{
+  
+    color: green;
+    width: 200px;
+    height: 41px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+.boton-cotizacion a{
+  
+    color:  green;
+    
+    
+}
+
+
+.boton-cotizacion span{
+  
+    font-size: 10px;
+}
+
+.boton-cotizacion a:hover{
+    text-decoration: none;
+    color: green;
+    
+}
+
+
+
+
+#vigilado2{
+	display: none;
+}
+
+.info-text4-3{
+		display: none;
+	}
+
+.quieres2{
+  display: none;
+}
+.logo-coomeva{
+	margin-top: 22.6px;
+	width: 376.7px;
+  height: 78.9px;
+  object-fit: contain;
+}
+
+.imagen-pdf{
+    margin: 0;
+    display:inline-block;
+    height: 18px;
+    float:none;
+}
+#intro{
+	
+	background: url("../images/cabecera.png")no-repeat center center ;
+	
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+
+.container{
+	background-color: white!important;
+}
+
+#protegido{
+	padding-bottom: 185.6px;
+	background-color: white;
+}
+#asegurar{
+	float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+  margin: 1.5em 0;
+  padding: 0;
+}
+input[type="checkbox"] {
+  visibility: hidden;
+
+}
+label {
+  cursor: pointer;
+  color: black;
+}
+input[type="checkbox"] + label:before {
+	
+  
+  content: "\00a0";
+  display: inline-block;
+  font: 22px/1em sans-serif;
+  width: 32px;
+  height: 32px;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  vertical-align: top;
+  
+  border-radius: 6px;
+  background-color: #eff2ef;
+}
+input[type="checkbox"]:checked + label:before {
+  background: #eff2ef;
+  color: #10804c;
+  content: "\2713";
+  text-align: center;
+  padding-top: 4px;
+}
+
+.form-control{
+	width: 350px!important;
+	background-color: white!important;
+	 float: none;
+    margin: 0 auto;
+	height: 50px!important;
+	font-size: 18px!important;
+}
+
+.tabla-princi{
+	padding-bottom: 185.9px;
+	padding-top: 94.7px;
+}
+
+.tabla-form{
+	float: none;
+    margin: 0 auto;
+}
+.tabla-form label{
+	font-size: 17px; 
+}
+
+.tuseguro{
+	font-weight: 700!important;
+}
+
+.wizard-title{
+	line-height: 27px;
+}
+
+
+.input-valor{
+ padding-left: 10px;
+	width: 395.7px!important;
+  height: 54px!important;
+  border-radius: 3px!important;
+  background-color: #ffffff;
+  border: solid 1px #d2d2d2;
+  font-family: MuseoSans;
+  font-size: 18px;
+  
+  color: #807f7f!important;
+
+}
+
+.input-select{
+	color: #959292!important;
+	 width: 190.9px;
+  height: 58.5px;
+  border-radius: 3px;
+  background-color: #fbfbfb;
+  border: solid 1px #d2d2d2;
+}
+
+
+.terminos{
+	font-family: MuseoSans300;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #919091;
+
+}
+.terminos span{
+	font-family: MuseoSans;
+	text-decoration-line: underline!important;
+}
+
+.p-terminos span{
+  font-family: MuseoSans;
+  text-decoration-line: underline!important;
+}
+
+
+
+
+
+
+.titulo1{
+	 width: 174.3px;
+  height: 28.2px;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #e7792b;
+  
+
+}
+
+.titulo1 p{
+	padding-top: 6px;
+	  width: 174.3px;
+  height: 24px;
+  font-family: MuseoSans300;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.titulo2{
+	  width: 579.2px;
+  height: 151.6px;
+  font-family: MuseoSans300;
+  font-size: 63px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+	
+}
+.titulo2-p{
+	  width: 503px;
+  height: 141.9px;
+  font-family: MuseoSans300;
+  font-size: 18px;
+  
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+  
+ 
+}
+
+.quieres{
+	  
+  font-family: MuseoSans300;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+	font-weight: bold;
+	
+}
+
+.quieres2{
+    
+  font-family: MuseoSans300;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-weight: bold;
+  
+}
+
+
+.formulario{
+	font-family: arial;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: #b0b0b0;
+}
+.titulo3{
+	
+	  
+	 padding-top: 81px;
+	  font-family: MuseoSans300;
+	  font-size: 40px;
+	  font-weight: 300;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1;
+	  letter-spacing: normal;
+	  color: #e7792b;
+}
+.facil{
+	
+  font-family: MuseoSans300;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  margin-bottom: 62px;
+}
+
+.titulo4{
+	
+  padding-top: 91.3px;
+  font-family: MuseoSans300;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e7792b;
+
+}
+.td-texto{
+	width: 300px;
+	text-align: left;
+	padding: 5px;
+
+}
+.td-texto2{
+  width: 300px;
+  text-align: left;
+  padding: 5px;
+
+}
+.p-titulo4{
+	opacity: 0.7;
+  font-family: MuseoSans300;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #858383;
+  -webkit-text-stroke: 1px #979797;
+}
+
+
+
+.p-titulo4 span{
+	padding-bottom: 14px;
+	font-family: MuseoSans300;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+}
+.espacio50{
+	padding: 50px;
+}
+.espacio100{
+	padding: 100px;
+}
+
+.espacio20{
+	padding: 20px;
+}
+.logo1{
+    display: inline-flex!important;	
+    width: 230px;
+   
+	
+}
+
+.logo1 img{
+	padding-left: 9%;
+}
+
+.logo1 > p{
+	font-size: 17px;
+	
+}
+
+
+.col-center{
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+.prueba{
+	display: inline-flex;
+	width: 100%;
+}
+
+.logo2{
+	display: -webkit-inline-box;
+	padding: 20px;
+
+	
+}
+li{
+	float: none;
+    margin: 0 auto;
+	width: 25%;
+}
+
+#seccion1,#seccion2,#seccion3,#seccion4{
+	text-align:center;
+}
+.td-texto p{
+	color: #979797!important;
+}
+.td-texto h5{
+		margin: 0;
+		width: 300px;
+	  height: 22px;
+	  font-family: MuseoSans300;
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  color: #4d4d4d;}
+
+  .td-texto2 h5{
+    margin: 0;
+    
+    height: 22px;
+    font-family: MuseoSans300;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4d4d4d;}  
+
+.logo1 p{
+	color: gray!important;
+}
+
+.active {
+	
+	border-bottom: 4px solid green;
+	color: green!important;
+}
+
+
+ input[type=radio]:checked + label { 
+ 	border: solid 2px #00814a;
+	color: green!important;
+  	box-shadow: 0px 12px 17px -7px rgba(0, 0, 0, 0.3);
+  	-webkit-transform: translateY(-10px);
+  	-moz-transform: translateY(-10px);
+  	-o-transition: translateY(-10px);
+  	-ms-transform: translateY(-10px);
+  	transform: translateY(-10px);
+}
+
+ input[type=radio]:checked + label p span { 
+	color: green!important;
+  	box-shadow: 0px 12px 17px -7px rgba(0, 0, 0, 0.3);
+  	-webkit-transform: translateY(-10px);
+  	-moz-transform: translateY(-10px);
+  	-o-transition: translateY(-10px);
+  	-ms-transform: translateY(-10px);
+  	transform: translateY(-10px);
+}
+
+.p-radio{
+	width: 100%;
+	font-family: MuseoSans;
+  font-size: 12px;
+  padding-top: 30px;
+  text-align: center;
+  color: #959292;
+      padding-right: 23px;
+}
+
+
+.p-radio2{
+	padding-top: 10px;	
+font-family: MuseoSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #00814a;
+      
+}
+
+.content{
+	padding-top: 30px;
+}
+
+#c1{
+	margin-right: -14px;
+}
+
+.info-text1{
+	padding-bottom: 17px;
+	padding-top: 69px;
+	 font-family: MuseoSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #484949;
+}
+
+.info-text2{
+	padding-bottom: 15px;
+	padding-top: 31px;
+	  font-family: MuseoSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #484949;
+}
+
+
+.info-text3{
+	font-family: MuseoSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #484949;
+  padding-bottom: 28px;
+}
+
+.info-text4{
+	padding-top: 35px;
+	padding-bottom: 7px;
+	font-family: MuseoSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #484949;
+}
+
+.info-text4-1{
+	font-family: MuseoSans300;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  
+  color: #484949;
+}
+
+.info-text-4-2{
+	 font-family: MuseoSans300;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #afafaf;
+}
+
+
+.info-p4{
+	 font-family: MuseoSans300;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #afafaf;
+}
+
+.info-text5{
+	 font-family: MuseoSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #484949;
+}
+
+.info-text5-1{
+	font-family: MuseoSans300;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00814a;
+}
+
+.info-text5-2{
+	 font-family: MuseoSans;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00814a;
+}
+
+.info-p5{
+	font-family: MuseoSans300;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a5a7a6;
+}
+
+.info-p5-1{
+	  font-family: MuseoSans300;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #afafaf;
+}
+
+.info-text6{
+	 font-family: MuseoSans;
+  font-size: 31px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #00814a;
+}
+.info-p6{
+	font-family: MuseoSans300;
+	font-size: 31px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #00814a;
+}
+
+.info-p6-1{
+	 font-family: MuseoSans300;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #868988;
+	
+}
+.finalizar{
+	 margin-top: -15px;
+}
+
+#siguiente{
+	padding-right: 49px;
+	padding-bottom: 44px;
+}
+
+#atras{
+	padding-left: 49px;
+	padding-bottom: 44px;
+}
+
+
+#icono {
+	
+    padding-left: 26%;
+}
+
+.icono2{
+	padding-left: 98px!important;
+	padding: 5px;
+	font-size: 27px!important;
+}
+.icono1{
+	
+	padding: 5px;
+	font-size: 27px!important;
+}
+.icono3{
+
+	padding-left: 57px!important;
+	font-size: 27px!important;
+}
+.icono4{
+	padding-left: 98px!important;
+	padding: 5px;
+	font-size: 27px!important;
+}
+
+#img-facilidades{
+  width: 486px;
+  height: 324px;
+}
+
+
+
+.p-color{
+	padding-left: 10px;
+
+  font-family: MuseoSans300;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #838383;
+}
+.active .p-color{
+	color: green!important;
+
+}
+.p-color span{
+	font-weight: 700;
+	font-family: MuseoSans;
+	font-weight: bold;
+}
+
+
+#a-color{
+	background-color: #fbfbfb;
+	width: 100%;
+}
+
+.tab-pane{
+	border: none!important;
+}
+
+.logo2 >p{
+	font-size: 18px;
+	padding: 5px;
+	color: black!important;
+
+}
+
+
+
+.logo3{
+	display: -webkit-inline-box;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding: 20px;
+}
+
+.circulo{
+	text-align: center;
+	 
+  
+}
+
+.circulo1{
+	text-align: center;
+}
+footer{
+	background-color: #e57936!important;
+	color: white;
+}
+
+.img-footer{
+	padding-top: 44.5px;
+	padding-bottom: 77px;
+	height: 320px;	
+	padding-left: 61.9px;
+}
+.p-footer{
+	padding-bottom: 120.6px;
+	padding-top: 74px;
+	width: 695px;
+  height: 120px;
+  opacity: 0.7;
+  font-family: MuseoSans300;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 32px;
+}
+
+.logo-liberty{
+	padding-left: 142.3px;
+	padding-top: 62.5px;
+	padding-bottom: 89.1px;
+	
+}
+
+.porque{
+	padding-bottom: 62.5px;
+  font-family: MuseoSans300;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+
+
+#imagen1{
+	
+  padding-bottom: 41.4px;
+
+}
+#imagen2{
+	
+  padding-bottom: 42px;
+}
+#imagen3{
+	 
+  padding-bottom: 50px;
+	
+}
+#imagen4{
+	
+  padding-bottom: 42.9px;
+	
+}
+
+
+#circle1{
+ 	 right: -39px!important;
+}
+
+#circle2{
+	right: -39px!important;
+}
+
+#circle3{
+	right: -39px!important;
+}
+
+#circle4{
+	right: -39px!important;
+}
+
+#circle5{
+	
+}
+
+
+.prueba5{
+  right: -111%!important;
+}
+.prueba4{
+  right: -57%!important;
+}
+.prueba1{
+  right: 77px!important;
+
+}
+.prueba2{
+  right: 59%!important;
+}
+.prueba3{
+  	right: -5%!important;
+}
+
+
+
+
+/* CONDICIONES PANTALLA!!!!!!!!!!!!!*//* CONDICIONES PANTALLA!!!!!!!!!!!!!*//* CONDICIONES PANTALLA!!!!!!!!!!!!!*//* CONDICIONES PANTALLA!!!!!!!!!!!!!*/
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1920 PX!!!!!!!!!!*/
+
+
+
+
+@media screen and (max-width:1920px) {
+
+
+.img-scroll {
+    position: absolute;
+    top: 64%;
+    left: 48%;
+  }
+
+
+
+  .nav-pills > li.active > a:after {
+  right: -2%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -140%!important;
+}
+.prueba4{
+  right: -85%!important;
+}
+.prueba1{
+  right: 77px!important;
+
+}
+.prueba2{
+  right: 30%!important;
+}
+.prueba3{
+    right: -22%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1820 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1820px) {
+
+
+.img-scroll {
+    position: absolute;
+    top: 86%;
+    left: 48%;
+  }
+
+  .nav-pills > li.active > a:after {
+  right: -5%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -140%!important;
+}
+.prueba4{
+  right: -90%!important;
+}
+.prueba1{
+  right: 72px!important;
+
+}
+.prueba2{
+  right: 40%!important;
+}
+.prueba3{
+    right: -18%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1730 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1730px) {
+
+
+
+.img-scroll {
+    position: absolute;
+    top: 78%;
+    left: 48%;
+  }
+
+
+  .nav-pills > li.active > a:after {
+  right: -9%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -140%!important;
+}
+.prueba4{
+  right: -90%!important;
+}
+.prueba1{
+  right: 72px!important;
+
+}
+.prueba2{
+  right: 40%!important;
+}
+.prueba3{
+    right: -18%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1600 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1600px) {
+
+
+  .nav-pills > li.active > a:after {
+  right: -15%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -130%!important;
+}
+.prueba4{
+  right: -90%!important;
+}
+.prueba1{
+  right: 72px!important;
+
+}
+.prueba2{
+  right: 40%!important;
+}
+.prueba3{
+    right: -18%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1520 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1520px) {
+
+
+  .nav-pills > li.active > a:after {
+  right: -25%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -120%!important;
+}
+.prueba4{
+  right: -70%!important;
+}
+.prueba1{
+  right: 62px!important;
+
+}
+.prueba2{
+  right: 40%!important;
+}
+.prueba3{
+    right: -15%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1340 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1340px) {
+
+
+  .nav-pills > li.active > a:after {
+  right: -28%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -114%!important;
+}
+.prueba4{
+  right: -52%!important;
+}
+.prueba1{
+  right: 68px!important;
+
+}
+.prueba2{
+  right: 65%!important;
+}
+.prueba3{
+    right: 11%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1199 PX!!!!!!!!!!*/
+
+
+
+
+@media screen and (max-width:1199px) {
+
+
+  .nav-pills > li.active > a:after {
+  right: -37%!important;
+}
+
+li.circulo.active{
+  width: 16%!important;
+}
+li.circulo{
+  width: 16%!important;
+}
+
+.titulo2 {
+  font-size: 59px;
+}
+
+
+.prueba5{
+  right: -94%!important;
+}
+.prueba4{
+  right: -35%!important;
+}
+.prueba1{
+  right: 61px!important;
+
+}
+.prueba2{
+  right: 80%!important;
+}
+.prueba3{
+    right: 21%!important;
+}
+
+#circle1{
+   right: -31px!important;
+}
+#circle2{
+   right: -31px!important;
+}
+#circle3{
+   right: -33px!important;
+}
+#circle4{
+   right: -31px!important;
+}
+#circle5{
+   right: -33px!important;
+}
+
+#label-largo{
+  width: 357px!important;
+}
+.input-valor{
+  width: 292px!important;
+}
+
+.input-select{
+  width: 154px;
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1024 PX!!!!!!!!!!*/
+
+
+
+
+@media screen and (max-width:1024px) {
+
+li.circulo.active{
+	width: 16%!important;
+}
+li.circulo{
+	width: 16%!important;
+}
+
+.titulo2 {
+	font-size: 59px;
+}
+
+
+.prueba5{
+  right: -94%!important;
+}
+.prueba4{
+  right: -35%!important;
+}
+.prueba1{
+  right: 61px!important;
+
+}
+.prueba2{
+  right: 80%!important;
+}
+.prueba3{
+  	right: 21%!important;
+}
+
+#circle1{
+ 	 right: -31px!important;
+}
+#circle2{
+ 	 right: -31px!important;
+}
+#circle3{
+ 	 right: -33px!important;
+}
+#circle4{
+ 	 right: -31px!important;
+}
+#circle5{
+ 	 right: -33px!important;
+}
+
+#label-largo{
+	width: 357px!important;
+}
+.input-valor{
+	width: 292px!important;
+}
+
+.input-select{
+	width: 154px;
+	padding: 5px;
+}
+
+#siguiente, #atras{
+	padding: 0px!important;
+}
+.logo-liberty {
+    padding-left: 71.3px;
+    padding-top: 62.5px;
+    padding-bottom: 89.1px;
+
+  }
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+
+
+      
+}
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 991 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:991px) {
+
+  .img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+footer{
+  height: 650px!important;
+}
+
+.logo-liberty{
+  padding-left: 0px!important;
+}
+.img-footer{
+  padding-left: 0px!important;
+}
+
+.logo2{
+  padding: 0px;
+  padding-bottom: 20px!important;
+  padding-left: 3px;
+}
+
+.logo1 > p {
+    font-size: 12px;
+
+}
+
+.nav-tabs{
+      border-bottom: 1px solid #ffffff!important;
+}
+
+#img-facilidades{
+  width: 420px;
+  height: 264px;
+}
+
+
+
+.nav-pills > li.active > a:after {
+  right: 7%!important;
+}
+
+
+.prueba5{
+  right: -150%!important;
+}
+.prueba4{
+  right: -98%!important;
+}
+.prueba1{
+  right: 88px!important;
+
+}
+.prueba2{
+  right: 17%!important;
+}
+.prueba3{
+    right: -39%!important;
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.input-select {
+    width: 305px!important;
+
+}
+.input-valor{
+width: 650px!important;
+}
+.info-text4{
+  text-align: 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 850 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:850px) {
+  .img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+
+
+
+footer{
+  height: 650px!important;
+}
+
+.logo-liberty{
+  padding-left: 0px!important;
+}
+.img-footer{
+  padding-left: 0px!important;
+}
+
+.logo2{
+  padding: 0px;
+  padding-bottom: 20px!important;
+  padding-left: 3px;
+}
+
+.logo1 > p {
+    font-size: 12px;
+
+}
+
+.nav-tabs{
+      border-bottom: 1px solid #ffffff!important;
+}
+
+#img-facilidades{
+  width: 420px;
+  height: 264px;
+}
+
+
+
+.nav-pills > li.active > a:after {
+  right: -1%!important;
+}
+
+
+.prueba5{
+  right: -144%!important;
+}
+.prueba4{
+  right: -93%!important;
+}
+.prueba1{
+  right: 80px!important;
+
+}
+.prueba2{
+  right: 27%!important;
+}
+.prueba3{
+    right: -29%!important;
+}
+
+
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.input-select {
+    width: 305px!important;
+
+}
+.input-valor{
+width: 650px!important;
+}
+.info-text4{
+  text-align: 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 768 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:768px) {
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -4%!important;
+}
+
+
+.prueba5{
+  right: -134%!important;
+}
+.prueba4{
+  right: -93%!important;
+}
+.prueba1{
+  right: 76px!important;
+
+}
+.prueba2{
+  right: 27%!important;
+}
+.prueba3{
+    right: -29%!important;
+}
+
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+.input-select {
+    width: 410px!important;
+
+}
+.input-valor{
+width: 430px!important;
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.p-footer{
+  width: 680px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+
+
+.logo-liberty{
+    
+    padding-top: 170px;
+    
+    width: 700px;
+
+  }
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+.tr-princi{
+  display: inline-grid;
+}
+
+}
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 730 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:730px) {
+
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+.nav-pills > li.active > a:after {
+  right: -8%!important;
+}
+
+
+.prueba5{
+  right: -134%!important;
+}
+.prueba4{
+  right: -93%!important;
+}
+.prueba1{
+  right: 68px!important;
+
+}
+.prueba2{
+  right: 27%!important;
+}
+.prueba3{
+    right: -29%!important;
+}
+
+.form-group{
+  text-align:center; 
+}
+.card-checkboxes{
+    width: 222px!important;
+    height: 140.2px!important
+    
+  }
+  #caja-arrendatario{
+    margin-left: 20px;
+  }
+
+  #caja-propietario{
+    margin-left: 20%;
+  }
+
+.input-select {
+    padding: 10px;
+    width: 400px!important;
+
+}
+.input-valor{
+width: 400px!important;
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.p-footer{
+  width: 580px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+
+
+.logo-liberty{
+    
+    padding-top: 170px;
+    
+    width: 500px;
+
+  }
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 650 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:650px) {
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -18%!important;
+}
+
+
+.prueba5{
+  right: -134%!important;
+}
+.prueba4{
+  right: -93%!important;
+}
+.prueba1{
+  right: 68px!important;
+
+}
+.prueba2{
+  right: 27%!important;
+}
+.prueba3{
+    right: -29%!important;
+}
+
+.form-group{
+  text-align:center; 
+}
+.card-checkboxes{
+    width: 222px!important;
+    height: 140.2px!important
+    
+  }
+  #caja-arrendatario{
+    margin-left: 20px;
+  }
+
+  #caja-propietario{
+    margin-left: 20%;
+  }
+
+  .input-select {
+    width: 430px!important;
+
+}
+.input-valor{
+width: 430px!important;
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.tr-princi{
+  display: inline-grid;
+}
+.p-footer{
+  width: 580px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+
+
+.logo-liberty{
+    
+    padding-top: 170px;
+    
+    width: 500px;
+
+  }
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 630 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:630px) {
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+.nav-pills > li.active > a:after {
+  right: -22%!important;
+}
+
+
+.prueba5{
+  right: -14%!important;
+}
+.prueba4{
+  right: 15%!important;
+}
+.prueba1{
+  right: 83px!important;
+
+}
+.prueba2{
+  right: 82%!important;
+}
+.prueba3{
+    right: 40%!important;
+}
+
+
+.card-checkboxes{
+    width: 272px!important;
+    height: 140.2px!important
+    
+  }
+  #caja-arrendatario{
+    margin-left: 5px;
+  }
+
+  #caja-propietario{
+    margin-left: 5%;
+  }
+.input-select {
+    width: 430px!important;
+
+}
+.input-valor{
+width: 430px!important;
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  width: 100%;
+  display: inline-flex;
+
+}
+.tr-princi{
+  display: inline-grid;
+}
+
+
+
+.titulo2{
+  width: 480px;
+}
+
+.titulo2-p{
+   width: 480px;
+   font-size: 17px;
+}
+
+.p-footer{
+  width: 580px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+
+
+.logo-liberty{
+    
+    padding-top: 170px;
+    
+    width: 500px;
+
+  }
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+  .form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 560 PX!!!!!!!!!!*/
+
+
+
+
+
+@media screen and (max-width:620px) {
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+.nav-pills > li.active > a:after {
+  right: -20%!important;
+}
+
+
+.prueba5{
+  right: -24%!important;
+}
+.prueba4{
+  right: 5%!important;
+}
+.prueba1{
+  right: 78px!important;
+
+}
+.prueba2{
+  right: 92%!important;
+}
+.prueba3{
+    right: 60%!important;
+}
+
+
+.card-checkboxes{
+    width: 222px!important;
+    height: 140.2px!important
+    
+  }
+  #caja-arrendatario{
+    margin-left: 5px;
+  }
+
+  #caja-propietario{
+    margin-left: 5%;
+  }
+.input-select {
+    width: 430px!important;
+
+}
+.input-valor{
+width: 430px!important;
+}
+
+.form-group{
+  text-align: left; 
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  width: 100%;
+  display: inline-flex;
+
+}
+.tr-princi{
+  display: inline-grid;
+}
+
+
+
+.titulo2{
+  width: 480px;
+}
+
+.titulo2-p{
+   width: 480px;
+   font-size: 17px;
+}
+
+.p-footer{
+  width: 400px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+
+
+.logo-liberty{
+    
+    padding-top: 170px;
+    
+    width: 380px;
+
+  }
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 510 PX!!!!!!!!!!*/
+
+
+
+
+
+@media screen and (max-width:530px) {
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+.nav-pills > li.active > a:after {
+  right: -35%!important;
+}
+
+
+.prueba5{
+  right: 4%!important;
+}
+.prueba4{
+  right: 25%!important;
+}
+.prueba1{
+  right: 72px!important;
+
+}
+.prueba2{
+  right: 92%!important;
+}
+.prueba3{
+    right: 63%!important;
+}
+
+
+.card-checkboxes{
+    width: 222px!important;
+    height: 140.2px!important
+    
+  }
+  #caja-arrendatario{
+    margin-left: 5px;
+  }
+
+  #caja-propietario{
+    margin-left: 5%;
+  }
+.input-select {
+    width: 400px!important;
+
+}
+.input-valor{
+width: 400px!important;
+}
+
+.form-group{
+  text-align: left; 
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  width: 100%;
+  display: inline-flex;
+
+}
+.tr-princi{
+  display: inline-grid;
+}
+
+
+
+.titulo2{
+  width: 480px;
+}
+
+.titulo2-p{
+   width: 480px;
+   font-size: 17px;
+}
+
+.p-footer{
+  width: 400px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+
+
+.logo-liberty{
+    
+    padding-top: 170px;
+    
+    width: 380px;
+
+  }
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+  .form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 420 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:450px) {
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+ 
+
+
+.nav-pills > li.active > a:after {
+  right: -47%!important;
+}
+
+
+.prueba5{
+  right: 8%!important;
+}
+.prueba4{
+  right: 37%!important;
+}
+.prueba1{
+  right: 68px!important;
+
+}
+.prueba2{
+  right: 103%!important;
+}
+.prueba3{
+    right: 89%!important;
+}
+.titulo2{
+  width: 400px;
+  font-size: 50px;
+}
+.titulo2-p{
+  width: 400px;
+  font-size: 15px;
+}
+
+.input-select {
+    width: 350px!important;
+
+}
+.input-valor{
+width: 350px!important;
+}
+
+}
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 420 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:420px) {
+
+.img-scroll {
+    display: none;
+  }
+ 
+.radio{
+  width: 100%;
+}
+
+
+
+.titulo1{
+  float: none;
+    margin: 0 auto;
+}
+
+.titulo2{
+  text-align: center;
+    font-size: 40px;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+
+
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  width: 100%!important;
+  display: inline-flex;
+
+}
+
+
+
+.espacio100{
+  padding: 20px;
+}
+
+
+.circulo{
+  display: inline-flex;
+}
+
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+.tr-princi{
+    display: inline-grid;
+  }
+
+.p-footer{
+  width: 380px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+  .logo-coomeva{
+    width: 198px;
+      height: 41.5px;
+  }
+
+
+.logo-liberty{
+     margin-top: 170px;
+    
+    width: 340px;
+
+  }
+
+
+  .titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+
+
+  .titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;
+  
+  }
+
+  .titulo2{
+  width: 259px;
+    height: 68.4px;
+    font-size: 24px;
+        margin-top: 0px;
+    padding-left: 40px;
+  }
+
+
+.titulo2-p{
+  display: none;
+  }
+
+
+
+
+
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+.espacio50{
+  display: none;
+}
+
+
+  .terminos span{
+    font-size: 14px;
+  }
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+  .nav-tabs{
+    width: 400px;
+  }
+
+
+
+    .card-checkboxes{
+    width: 165px!important;
+    height: 131.2px!important;
+    
+  }
+  #caja-propietario{
+    margin-left: 25px!important;
+  }
+
+  #caja-arrendatario{
+    margin-left: -8px;
+  }
+  #icono{
+    padding-left: 21%;
+  }
+
+  #label-largo{
+        width: 270px!important;
+  }
+  .p-radio2{
+    font-size: 12px!important;
+  }
+
+  .icono2{
+    padding-left: 70px!important;
+  } 
+
+  .icono3{
+    padding-left: 14px!important;
+  }
+
+  .icono4{
+    padding-left: 64px!important;
+    padding-right: 17px;
+  }
+  .input-valor{
+    width: 340px!important;
+  }
+  .input-select{
+    width: 340px!important;
+
+  }
+  .info-text4-3{
+    display: block;
+  }
+
+  .btn-success{
+  width: 124px!important;
+}
+
+.form-control{
+    width: 260px!important;
+  height: 48px!important;
+  } 
+
+
+
+
+.td-texto{
+  padding-right: 5px;
+  width: 220px;
+}
+
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+
+#secciones{
+  padding: 0;
+}
+
+
+#img-facilidades{
+  width: 360px;
+    height: 164px;
+}
+
+
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+  }
+
+
+  .titulo4{
+    padding-top: 34px;
+     width: 295.1px;
+  height: 53px;
+  
+  font-size: 20px;
+  }
+  .porque{
+    width: 193.1px;
+  height: 53px;
+  
+  font-size: 16px;
+  }
+
+.p-titulo4 span{
+  font-size: 18px;
+}
+
+.p-titulo4 p{
+  font-size: 14px;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -55%!important;
+}
+
+
+.prueba5{
+  right: 26%!important;
+}
+.prueba4{
+  right: 57%!important;
+}
+.prueba1{
+  right: 64px!important;
+
+}
+.prueba2{
+  right: 134%!important;
+}
+.prueba3{
+    right: 99%!important;
+}
+
+.titulo3{
+  margin-top: 33px;
+}
+
+
+.quieres2{
+  display: block;
+  text-align: center;
+}
+
+.lineas1{
+  display: block;
+  color: #D8D8D8;
+}
+.lineas2{
+  display: none;
+
+}
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+.finalizar p{
+  font-size: 15px!important;
+}
+
+.p-terminos p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+.p-terminos1 p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+.p-terminos1 span{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 414 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:414px) {
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+
+ .titulo1{
+  float: none;
+    margin: 0 auto;
+}
+
+.titulo2{
+  text-align: center;
+    font-size: 40px;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+
+
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  width: 100%!important;
+  display: inline-flex;
+
+}
+
+
+
+.espacio100{
+  padding: 20px;
+}
+
+
+.circulo{
+  display: inline-flex;
+}
+
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+.tr-princi{
+    display: inline-grid;
+  }
+
+.p-footer{
+  width: 300px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+  .logo-coomeva{
+    width: 198px;
+      height: 41.5px;
+  }
+
+
+.logo-liberty{
+     margin-top: 170px;
+    
+    width: 230px;
+
+  }
+
+
+  .titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+
+
+  .titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;
+  
+  }
+
+  .titulo2{
+  width: 259px;
+    height: 68.4px;
+    font-size: 24px;
+        margin-top: 0px;
+    padding-left: 40px;
+  }
+
+
+.titulo2-p{
+  display: none;
+  }
+
+
+
+
+
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+.espacio50{
+  display: none;
+}
+
+
+  .terminos span{
+    font-size: 14px;
+  }
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+  .nav-tabs{
+    width: 400px;
+  }
+
+
+
+    .card-checkboxes{
+    width: 165px!important;
+    height: 131.2px!important;
+    
+  }
+  #caja-propietario{
+    margin-left: 25px!important;
+  }
+
+  #caja-arrendatario{
+    margin-left: -8px;
+  }
+  #icono{
+    padding-left: 21%;
+  }
+
+  #label-largo{
+        width: 270px!important;
+  }
+  .p-radio2{
+    font-size: 12px!important;
+  }
+
+  .icono2{
+    padding-left: 70px!important;
+  } 
+
+  .icono3{
+    padding-left: 14px!important;
+  }
+
+  .icono4{
+    padding-left: 64px!important;
+    padding-right: 17px;
+  }
+  .input-valor{
+    width: 340px!important;
+  }
+  .input-select{
+    width: 340px!important;
+
+  }
+  .info-text4-3{
+    display: block;
+  }
+
+  .btn-success{
+  width: 124px!important;
+}
+
+.form-control{
+    width: 260px!important;
+  height: 48px!important;
+  } 
+
+
+
+
+.td-texto{
+  padding-right: 5px;
+  width: 220px;
+}
+
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+
+#secciones{
+  padding: 0;
+}
+
+
+#img-facilidades{
+  width: 360px;
+    height: 164px;
+}
+
+
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+  }
+
+
+  .titulo4{
+    padding-top: 34px;
+     width: 295.1px;
+  height: 53px;
+  
+  font-size: 20px;
+  }
+  .porque{
+    width: 193.1px;
+  height: 53px;
+  
+  font-size: 16px;
+  }
+
+.p-titulo4 span{
+  font-size: 18px;
+}
+
+.p-titulo4 p{
+  font-size: 14px;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -55%!important;
+}
+
+
+.prueba5{
+  right: 26%!important;
+}
+.prueba4{
+  right: 57%!important;
+}
+.prueba1{
+  right: 64px!important;
+
+}
+.prueba2{
+  right: 134%!important;
+}
+.prueba3{
+    right: 99%!important;
+}
+
+.titulo3{
+  margin-top: 33px;
+}
+
+
+.quieres2{
+  display: block;
+  text-align: center;
+}
+
+.lineas1{
+  display: block;
+  color: #D8D8D8;
+}
+.lineas2{
+  display: none;
+
+}
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+.finalizar p{
+  font-size: 15px!important;
+}
+
+.p-terminos p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+.p-terminos1 p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+.p-terminos1 span{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+}
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 360 PX!!!!!!!!!!*/
+
+@media screen and (max-width:360px) {  
+  
+
+.img-scroll {
+    display: none;
+  }
+
+.radio{
+  width: 100%;
+}
+ 
+.titulo1{
+  float: none;
+    margin: 0 auto;
+}
+
+.titulo2{
+  text-align: center;
+    font-size: 40px;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+
+
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  display: inline-flex;
+
+}
+
+
+
+.espacio100{
+  padding: 20px;
+}
+
+
+.circulo{
+  display: inline-flex;
+}
+
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+.tr-princi{
+    display: inline-grid;
+  }
+
+.p-footer{
+  width: 300px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+  .logo-coomeva{
+    width: 198px;
+      height: 41.5px;
+  }
+
+
+.logo-liberty{
+     margin-top: 170px;
+    
+    width: 230px;
+
+  }
+
+
+  .titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+
+
+  .titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;
+  
+  }
+
+  .titulo2{
+  width: 259px;
+    height: 68.4px;
+    font-size: 24px;
+        margin-top: 0px;
+    padding-left: 40px;
+  }
+
+
+.titulo2-p{
+  display: none;
+  }
+
+
+
+
+
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+.espacio50{
+  display: none;
+}
+
+
+  .terminos span{
+    font-size: 14px;
+  }
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+  .nav-tabs{
+    width: 300px;
+  }
+
+
+
+    .card-checkboxes{
+    width: 140px!important;
+    height: 131.2px!important;
+    
+  }
+  #caja-propietario{
+    margin-left: 25px!important;
+  }
+
+  #caja-arrendatario{
+    margin-left: -8px;
+  }
+  #icono{
+    padding-left: 21%;
+  }
+
+  #label-largo{
+        width: 270px!important;
+  }
+  .p-radio2{
+    font-size: 12px!important;
+  }
+
+  .icono2{
+    padding-left: 70px!important;
+  } 
+
+  .icono3{
+    padding-left: 14px!important;
+  }
+
+  .icono4{
+    padding-left: 64px!important;
+    padding-right: 17px;
+  }
+  .input-valor{
+    width: 290px!important;
+  }
+  .input-select{
+    width: 290px!important;
+
+  }
+  .info-text4-3{
+    display: block;
+  }
+
+  .btn-success{
+  width: 124px!important;
+}
+
+.form-control{
+    width: 260px!important;
+  height: 48px!important;
+  } 
+
+
+
+
+.td-texto{
+  padding-right: 5px;
+  width: 220px;
+}
+
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+
+#secciones{
+  padding: 0;
+}
+
+
+#img-facilidades{
+  width: 320px;
+    height: 164px;
+}
+
+
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+  }
+
+
+  .titulo4{
+    padding-top: 34px;
+     width: 295.1px;
+  height: 53px;
+  
+  font-size: 20px;
+  }
+  .porque{
+    width: 193.1px;
+  height: 53px;
+  
+  font-size: 16px;
+  }
+
+.p-titulo4 span{
+  font-size: 18px;
+}
+
+.p-titulo4 p{
+  font-size: 14px;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -67%!important;
+}
+
+
+.prueba5{
+  right: 26%!important;
+}
+.prueba4{
+  right: 57%!important;
+}
+.prueba1{
+  right: 64px!important;
+
+}
+.prueba2{
+  right: 134%!important;
+}
+.prueba3{
+    right: 99%!important;
+}
+
+
+
+.titulo3{
+  margin-top: 33px;
+}
+
+.p-footer{
+  width: 270px;
+}
+
+#imagenes-footer{
+  width: 300px;
+}
+
+
+.quieres2{
+  display: block;
+  text-align: center;
+}
+
+.lineas1{
+  display: block;
+  color: #D8D8D8;
+}
+.lineas2{
+  display: none;
+
+}
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+.finalizar p{
+  font-size: 15px!important;
+}
+
+.p-terminos p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+.p-terminos1 p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+.p-terminos1 span{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+.boton-asesor{
+  margin: 0 auto;
+    text-align:center;
+    color: green;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 340 PX!!!!!!!!!!*/
+
+
+
+@media screen and (max-width: 340px) {
+
+
+ 
+.radio{
+  width: 100%;
+}
+
+.td-inscripcion1{
+  font-size: 15px;
+  
+}
+ 
+.titulo1{
+  float: none;
+    margin: 0 auto;
+}
+
+.titulo2{
+  text-align: center;
+    font-size: 40px;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+
+
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  display: inline-flex;
+
+}
+
+
+
+.espacio100{
+  padding: 20px;
+}
+
+
+.circulo{
+  display: inline-flex;
+}
+
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+.tr-princi{
+    display: inline-grid;
+  }
+
+.p-footer{
+  width: 300px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+  .logo-coomeva{
+    width: 198px;
+      height: 41.5px;
+  }
+
+
+.logo-liberty{
+     margin-top: 170px;
+    
+    width: 230px;
+
+  }
+
+
+  .titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+
+
+  .titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;
+  
+  }
+
+  .titulo2{
+  width: 259px;
+    height: 68.4px;
+    font-size: 24px;
+        margin-top: 0px;
+    padding-left: 40px;
+  }
+
+
+.titulo2-p{
+  display: none;
+  }
+
+
+
+
+
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+.espacio50{
+  display: none;
+}
+
+
+  .terminos span{
+    font-size: 14px;
+  }
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+  .nav-tabs{
+    width: 300px;
+  }
+
+
+
+    .card-checkboxes{
+    width: 130px!important;
+    height: 131.2px!important;
+    
+  }
+  #caja-propietario{
+    margin-left: 25px!important;
+  }
+
+  #caja-arrendatario{
+    margin-left: -8px;
+  }
+  #icono{
+    padding-left: 21%;
+  }
+
+  #label-largo{
+        width: 255px!important;
+  }
+  .p-radio2{
+    font-size: 12px!important;
+  }
+
+  .icono2{
+    padding-left: 70px!important;
+  } 
+
+  .icono3{
+    padding-left: 14px!important;
+  }
+
+  .icono4{
+    padding-left: 64px!important;
+    padding-right: 17px;
+  }
+  .input-valor{
+    width: 268px!important;
+  }
+  .input-select{
+    width: 268px!important;
+
+  }
+  .info-text4-3{
+    display: block;
+  }
+
+  .btn-success{
+  width: 124px!important;
+}
+
+.form-control{
+    width: 260px!important;
+  height: 48px!important;
+  } 
+
+
+
+
+.td-texto{
+  padding-right: 5px;
+  width: 220px;
+}
+
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+
+#secciones{
+  padding: 0;
+}
+
+
+#img-facilidades{
+  width: 300px;
+    height: 164px;
+}
+
+
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+  }
+
+
+  .titulo4{
+    padding-top: 34px;
+     width: 295.1px;
+  height: 53px;
+  
+  font-size: 20px;
+  }
+  .porque{
+    width: 193.1px;
+  height: 53px;
+  
+  font-size: 16px;
+  }
+
+.p-titulo4 span{
+  font-size: 18px;
+}
+
+.p-titulo4 p{
+  font-size: 14px;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -84%!important;
+}
+
+
+.prueba5{
+  right: 26%!important;
+}
+.prueba4{
+  right: 57%!important;
+}
+.prueba1{
+  right: 64px!important;
+
+}
+.prueba2{
+  right: 134%!important;
+}
+.prueba3{
+    right: 99%!important;
+}
+
+
+
+.titulo3{
+  margin-top: 33px;
+}
+
+.quieres2{
+  display: block;
+  text-align: center;
+}
+
+.lineas1{
+  display: block;
+  color: #D8D8D8;
+}
+.lineas2{
+  display: none;
+
+}
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+.finalizar p{
+  font-size: 15px!important;
+}
+
+.p-terminos p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+.p-terminos1 p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+.p-terminos1 span{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+
+.boton-asesor{
+  margin: 0 auto;
+    text-align:center;
+    color: green;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 320 PX!!!!!!!!!!*/
+
+@media screen and (max-width:320px) {  
+	
+.img-scroll {
+    display: none;
+  }
+  
+.radio{
+  width: 100%;
+}
+
+
+  .boton-asesor{
+  margin: 0 auto;
+    text-align:center;
+    color: green;
+    width: 240px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+
+
+
+	.nav-pills > li > a:after {
+
+    right: 30px!important;
+}
+
+.nav-pills > li.active > a:after {
+
+  right: 30px!important;
+}
+
+.titulo1{
+  float: none;
+    margin: 0 auto;
+}
+
+.titulo2{
+  text-align: center;
+    font-size: 40px;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+
+
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.logo1 p{
+  display: none;
+}
+
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+
+}
+
+
+ul{
+  display: inline-flex;
+
+}
+
+
+
+.espacio100{
+  padding: 20px;
+}
+
+
+.circulo{
+  display: inline-flex;
+}
+
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+.tr-princi{
+    display: inline-grid;
+  }
+
+.p-footer{
+  width: 300px;
+}
+
+
+    #vigilado1{
+    display: none;
+  }
+  #vigilado2{
+    display: block;
+    width: 25px;
+  }
+
+  .logo-coomeva{
+    width: 198px;
+      height: 41.5px;
+  }
+
+
+.logo-liberty{
+     margin-top: 170px;
+    
+    width: 230px;
+
+  }
+
+
+  .titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+
+
+  .titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;
+  
+  }
+
+  .titulo2{
+  width: 259px;
+    height: 68.4px;
+    font-size: 24px;
+        margin-top: 0px;
+    padding-left: 40px;
+  }
+
+
+.titulo2-p{
+  display: none;
+  }
+
+
+
+
+
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+.espacio50{
+  display: none;
+}
+
+
+  .terminos span{
+    font-size: 14px;
+  }
+  .wizard-container{
+    padding-top: 0px!important;
+  }
+
+  .nav-tabs{
+    width: 300px;
+  }
+
+
+
+    .card-checkboxes{
+    width: 120px!important;
+    height: 131.2px!important;
+    
+  }
+  #caja-propietario{
+    margin-left: 20px!important;
+  }
+
+  #caja-arrendatario{
+    margin-left: -8px;
+  }
+  #icono{
+    padding-left: 21%;
+  }
+
+  #label-largo{
+        width: 230px!important;
+  }
+  .p-radio2{
+    font-size: 12px!important;
+  }
+
+  .icono2{
+    padding-left: 70px!important;
+  } 
+
+  .icono3{
+    padding-left: 14px!important;
+  }
+
+  .icono4{
+    padding-left: 64px!important;
+    padding-right: 17px;
+  }
+  .input-valor{
+    width:  255px!important;
+  }
+  .input-select{
+    width: 255px!important;
+
+  }
+  .info-text4-3{
+    display: block;
+  }
+
+  .btn-success{
+  width: 124px!important;
+}
+
+.form-control{
+    width: 260px!important;
+  height: 48px!important;
+  } 
+
+
+
+
+.td-texto{
+  padding-right: 5px;
+  width: 220px;
+}
+
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+
+#secciones{
+  padding: 0;
+}
+
+
+#img-facilidades{
+  width: 280px;
+    height: 124px;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+  }
+
+
+  .titulo4{
+    padding-top: 34px;
+     width: 295.1px;
+  height: 53px;
+  
+  font-size: 20px;
+  }
+  .porque{
+    width: 193.1px;
+  height: 53px;
+  
+  font-size: 16px;
+  }
+
+.p-titulo4 span{
+  font-size: 18px;
+}
+
+.p-titulo4 p{
+  font-size: 14px;
+}
+
+
+.nav-pills > li.active > a:after {
+  right: -89%!important;
+}
+
+
+.prueba5{
+  right: 26%!important;
+}
+.prueba4{
+  right: 57%!important;
+}
+.prueba1{
+  right: 58px!important;
+
+}
+.prueba2{
+  right: 134%!important;
+}
+.prueba3{
+    right: 99%!important;
+}
+
+
+
+.titulo3{
+  margin-top: 33px;
+}
+
+.p-footer{
+  width: 270px;
+}
+
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+
+
+#imagenes-footer{
+  width: 300px;
+}
+
+.quieres2{
+  display: block;
+  text-align: center;
+}
+
+
+.lineas1{
+  display: block;
+  color: #D8D8D8;
+}
+.lineas2{
+  display: none;
+
+}
+
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+
+
+.finalizar p{
+  font-size: 15px!important;
+}
+
+
+
+.p-terminos p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+
+.p-terminos1 p{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+
+.p-terminos1 span{
+  font-family: MuseoSans300;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+.td-inscripcion1{
+  font-size: 15px;
+  
+}
+
+}
+
+
+
+
+
+

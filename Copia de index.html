@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<link href='images/icono-princi1.png' rel='shortcut icon' type='image/png'>
+	<title>Coomeva</title>
+	<meta charset="utf-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!-- <link rel="stylesheet"  href="php/prueba.php"> -->
+	<script language="JavaScript"> 
+		
+
+		function funcion (){
+			if ($(window).width() == 320){
+			
+			$("#wizardProfile").css("width",$(window).width()-20);
+			$("#NumeroCedula").css("width",$(window).width()-56);
+			$("#label-largo").css("width",$(window).width()-50);
+			$(".card1").css("width",$(window).width()-50);
+			$(".input-valor").css("width",$(window).width()-57);
+			$(".input-select").css("width",$(window).width()-57);
+
+
+
+			}
+
+			
+
+		}
+
+	function funcion1 (){
+			if ($(window).width() == 411){
+			
+			$("#wizardProfile").css("width",$(window).width()-37);
+			$("#NumeroCedula").css("width",$(window).width()-56);
+			$("#caja-arrendatario").css("margin-left","22px");
+			$("#label-largo").css("margin-left","7px");
+			$(".icono3").css("padding-left","61px");
+			$(".icono2").css("padding-left","113px");
+			$(".icono4").css("padding-left","103px");
+			$(".card1").css("width",$(window).width()-50);
+			$(".card1").css("margin-left","7px");
+
+			$(".input-valor").css("width","334px");
+			$(".input-select").css("width","334px");
+
+			
+
+			}
+	}
+
+	function funcion2 (){
+			if ($(window).width() >= 769){
+			
+			$("#icono").css("padding-left","26%");
+			$("#label-largo").css("width","450px");
+			$(".card1").css("width","450px");
+			$("#label-largo").css("margin-left","46px");
+			$(".card1").css("margin-left","46px");
+			$(".icono3").css("padding-left","115px");
+			$(".icono2").css("padding-left","167px");
+			$(".icono4").css("padding-left","162px");
+
+
+			}
+
+			
+
+	}
+
+
+
+	</script>
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/paper-bootstrap-wizard.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.theme.min.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="assets/css/demo.css" rel="stylesheet" />
+
+	<!-- Fonts and Icons -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="assets/css/themify-icons.css" rel="stylesheet">
+</head>
+<body onload="funcion(); funcion1(); funcion2 ()">
+<!--      SECCION 1     -->
+	<section id="section01">
+	<div class="container-fluid" id="intro">
+		<div class="main row">
+			<div class="col-lg-12 col-md-12  col-sm-12" > 
+				<img src="images/logo-coomeva.svg" class="logo-coomeva">
+				<div class="espacio7" id="espacio"></div>
+				
+				<h1 class="titulo2" id="poliza">
+					PÓLIZA HOGAR<br>
+					COOMEVA
+				</h1>
+				<p class="titulo2-p" id="tucasa">
+					Es tu casa, es tu tranquilidad 
+					<span class="esperando" id="esperando">
+						¿Qué estás esperando para asegurar <br>lo que más quieres?
+					</span>
+					
+					
+				</p>
+
+				<p class="quieres2">
+					¿Qué estás esperando para asegurar <br>lo que más quieres?
+				</p>
+			</div>
+
+
+
+<!--    INICIO FORMULARIO     -->
+			<div class="col-lg-5 col-md-6  col-sm-8 col-xs ">
+				<!-- <img src="images/vigilado-principal.svg" id="vigilado" > -->
+				<img src="images/logo-coomeva2.png" id="vigilados" >
+		<div class="" id="espacio"></div>
+
+		     <!--    INICIO CONTENEDOR     -->
+		            <div class="wizard-container">
+		                <div class="card wizard-card" data-color="orange" id="wizardProfile">
+		                    <form action="" method="">
+		                <!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
+		                	<!--  INICIO  PARTE PRINCIPAL CONTENEDOR     -->
+		                    	
+		                    	<div class="wizard-header text-center" id="wizard3" style="display: none;" >
+		                        	<h3 class="wizard-title" id="wizard2" >Cotiza el valor<br>
+		                        		<span class="tuseguro">de tu seguro</span>
+		                        	</h3>
+		                        	
+		                    	</div>
+		                    	<div class="wizard-header text-center" id="wizard4" style="display: none;" >
+		                        	<h3 class="wizard-title" id="wizard2" ">Comprar tu seguro<br>
+		                        		
+		                        	</h3>
+		                        	
+		                    	</div>
+								<div class="wizard-navigation" id="wizard" style="display: none;">
+									<div class="progress-with-circle" >
+									     <div class="progress-bar" role="progressbar" id="progreso" aria-valuenow="1" aria-valuemin="1" aria-valuemax="3" ></div>
+									</div>
+									<ul>
+			                            <li class="circulo">
+											<a href="#cedula" data-toggle="tab" class="prueba1">
+												<div class="icon-circle" id="circle1">
+													<i class=""></i>
+												</div>
+											</a>
+										</li>
+			                            <li class="circulo">
+											<a href="#tipo-cliente" data-toggle="tab" class="prueba2">
+												<div class="icon-circle" id="circle2">
+													<i class=""></i>
+												</div>
+											</a>
+										</li>
+										<li class="circulo">
+											<a href="#propietario" data-toggle="tab" class="prueba3">
+												<div class="icon-circle" id="circle3">
+													<i class=""></i>
+												</div>
+											</a>
+										</li>
+			                            <li class="circulo">
+											<a href="#address" data-toggle="tab" class="prueba4">
+												<div class="icon-circle" id="circle4">
+													<i class=""></i>
+												</div>
+											</a>
+										</li>
+										<li class="circulo">
+											<a href="#resultado" data-toggle="tab" class="prueba5">
+												<div class="icon-circle" id="circle5">
+													<i class=""></i>
+												</div>
+											</a>
+										</li>
+										<ol style="display: none;" class="circulo">
+											<a href="#acepto" data-toggle="tab" class="prueba5">
+												<div class="icon-circle" id="circle5">
+													<i class=""></i>
+												</div>
+											</a>
+										</ol>
+										<ol style="display: none;" class="circulo">
+											<a href="#NoAsociado" data-toggle="tab" class="prueba5">
+												<div class="icon-circle" id="circle5">
+													<i class=""></i>
+												</div>
+											</a>
+										</ol>
+										<ol style="display: none;" class="circulo">
+											<a href="#NoAsociado1" data-toggle="tab" class="prueba5">
+												<div class="icon-circle" id="circle5">
+													<i class=""></i>
+												</div>
+											</a>
+										</ol>
+			                        </ul>
+								</div>
+							<!--  FIN  PARTE PRINCIPAL CONTENEDOR     -->	
+							<!--  INICIO  CONTENIDO FORMULARIO     -->
+		                        <div class="tab-content">
+
+		                        	<!--  INICIO  CONTENIDO No asociado  CONTENEDOR    -->
+		                            <div class="tab-pane" id="NoAsociado">
+		                            	<div class="row">
+											<div class="col-sm-12">
+												<div class="NoAsociado">
+													<h5 class="p-NoAsociado">
+														Este producto es solo para asociados a Coomeva,<br>
+														no hemos encontrado esta cédula en nuestra base<br>
+														de datos.
+																				
+													</h5>
+													<br>
+														<span class="asociado">
+															*El asegurado debe ser el mismo asociado de Coomeva.
+														</span>
+														
+														<br><br>
+
+														<a type='button'  class=' btn-NoAsociado' onclick="refrescar()" /><span class="ti-arrow-left"></span>Volver</a>
+												</div>
+											</div>
+										</div>
+		                            </div>
+
+		                         <!--  FIN  CONTENIDO No asociado  CONTENEDOR    -->
+
+		                          <!--  INICIO  CONTENIDO No asociado 1 CONTENEDOR    -->
+		                            <div class="tab-pane" id="NoAsociado1">
+		                            	<div class="row">
+											<div class="col-sm-12">
+												<div class="NoAsociado">
+													<h5 class="p-NoAsociado">
+														El asociado con CC 809825672 no<br>
+														se encuentra activo.
+																				
+													</h5>
+													<br>
+														<span class="asociado">
+															*El asegurado debe ser el mismo asociado de Coomeva.
+														</span>
+														
+														<br><br><br><br>
+
+														<a type='button'  class=' btn-NoAsociado' onclick="refrescar()" /><span class="ti-arrow-left"></span>Volver</a>
+
+
+												</div>
+											</div>
+										</div>
+		                            </div>
+
+		                         <!--  FIN  CONTENIDO No asociado 1 CONTENEDOR    -->
+
+
+		                       <!--  INICIO  CONTENIDO 1 CONTENEDOR    -->	
+		                            <div class="tab-pane" id="cedula">
+		                            	<div class="row" id="tamaño" >
+											<div class="col-sm-12" id="tamaño">
+												<div class="form-group">
+													<table class="tabla-form" id="tabla-cedula">
+														<tr >
+															<td style="text-align: left;">
+																<h3 class="info-text1-1" id="cotizaSeguro">Cotiza tu seguro:</h3>
+																<label class="info-text1" id="DigitaCedula">Ingresa tu número de cédula</label>
+															</td>
+															</tr>
+															<tr id="tr-cedula">
+															<td class="digita-documento">
+																<input  type="text" onkeypress="return valida(event)" class="form-control1" title="Digíta tu numero de documento" name="cedula" id="NumeroCedula" placeholder="Tu número de cédula" required maxlength="12">
+																<label id="notificacion" maxlength="1"></label>
+
+
+
+															</td>
+															<td class="td-boton">
+																<div class="pull-right" id="siguiente" style="margin-left: 10px;">
+
+									                                <a class='btn1  btn-next btn-fill  btn-wd' name='next'  value='Siguiente' onclick="siguiente() "/>Iniciar<span class="ti-angle-right"></span></a>
+									                                <a href="#acepto" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finalizar' onclick="ocultar();" /></a>
+									                            </div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+															<div class="content" id="checkbox">
+															  <div class="box">
+															    <p>
+															      <input type="checkbox" id="c1" name="cb" class="micheckbox">
+															      <label for="c1" class="terminos">Acepta 
+
+															      	<a href="pdf/prueba.pdf"  target="_blank">
+																	<span style="color: #919091; ">política de privacidad y tratamiento de datos. </span>
+																	</a>
+															      	</label>
+															    </p>
+															  </div>
+															</div>
+															</td>
+														</tr>
+													</table>
+													<br><br>
+												</div>
+											</div>
+										</div>
+		                            </div>
+		                         <!--  FIN  CONTENIDO 1 CONTENEDOR    -->   
+
+		                        <!--  INICIO  CONTENIDO 2 CONTENEDOR    -->
+		                            <div class="tab-pane" id="tipo-cliente">
+		                            	<div class="espacio20"></div>
+		                                <h5 class="info-text2"> ¿Qué te identifica mejor? </h5>
+		                                <div class="row " id="tamaño">
+		                                	<div class="espacio20"></div>
+		                                    <div class="col-sm-12  .col-md-12	.col-lg-12 radio" id="tamaño">
+		                                    	<form>
+												  	<input id="m1" type="radio" style="display: none;" name="sexo1"  value="m">
+													<label for="m1"  class="card card-checkboxes card-hover-effect" id="caja-arrendatario">
+	                                                    <i class="ti-key" id="icono"></i>
+														<p class="p-radio">
+															<span>SOY ARRENDATARIO</span>
+														</p>
+		                                          	</label>
+												  	<br>
+												  	<input  id="m2" type="radio" name="sexo1" style="display: none;" value="h"> 
+												  	<label for="m2" class="card card-checkboxes card-hover-effect" id="caja-propietario">
+	                                                    <i class="ti-home" id="icono"></i>
+														<p class="p-radio">
+															<span>SOY PROPIETARIO</span>
+														</p>
+
+		                                        	</label>
+												</form>
+		                                    </div>
+		                                   <br><br>
+		                                   
+		                                   
+			                                   	<div id="siguiente1" >
+
+					                                <a class='btn btn-next btn-fill btn-success btn-wd' name='next' onclick="siguiente();" value='Siguiente'  />Siguiente<span class="ti-arrow-right"></span></a>
+					                                
+					                            </div>
+
+			                                    <div id="atras1" style="   ">
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd' onclick="atras ()" name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+			                            		</div>
+
+
+		                                   </div>
+		                                     
+		                                
+		                            </div>
+		                           <!--  FIN  CONTENIDO 2 CONTENEDOR    -->
+
+		                           <!--  INICIO  CONTENIDO 3 CONTENEDOR    --><br><br><br>
+		                            <div class="tab-pane" id="propietario">
+		                                <h5 class="info-text3"> ¿Qué deseas asegurar?</h5>
+		                                <div class="row " id="tamaño">
+		                                    <div class="col-sm-12 tamaño" id="asegurar" >
+		                                    	<form class="radio2">	
+		                                    		 <input  id="m5" type="radio" name="sexo1" style="display: none;" value="h">  
+													<label for="m5" class="card1 card-checkboxes1 card-hover-effect" id="label-largo" style="opacity: 0;">
+														<i class="ti-home icono3"></i><i class="ti-harddrives icono1"></i>
+														<p class="p-radio2">
+															<span>INMUEBLE Y CONTENIDO</span>
+														</p>
+						                            </label>
+			                                        <input  id="m3" type="radio" name="sexo1" style="display: none;"  value="h">  
+													<label for="m3" class="card1 card-checkboxes1 card-hover-effect" id="label-largo" style="opacity: 0;">
+						                                <i class="ti-home icono2"></i>
+														<p class="p-radio2">
+															<span>EL INMUEBLE</span>
+														</p>
+						                            </label>
+						                            <input  id="m4" type="radio" name="sexo1" style="display: none;" value="h">  
+													<label for="m4" class="card1 card-checkboxes1 card-hover-effect" id="label-largo" style="opacity: 0;">
+														<i class="ti-harddrives icono4"></i>
+														<p class="p-radio2">
+															<span>EL CONTENIDO</span>
+														</p>
+						                            </label>
+						                           
+						                         </form>
+		                                    </div>
+		                                    
+		                                    <div class="pie-formulario"> 
+			                                   	<div id="siguiente1">
+
+					                                <a class='btn btn-next btn-fill btn-success btn-wd' name='next' onclick="siguiente();" value='Siguiente'  />Siguiente<span class="ti-arrow-right"></span></a>
+					                                
+					                            </div>
+
+			                                    <div id="atras1">
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+			                            		</div>
+
+
+		                                   </div>
+
+
+		                                </div>
+		                            </div>
+		                        <!--  FIN  CONTENIDO 3 CONTENEDOR    -->
+
+
+		                        <!--  INICIO  CONTENIDO 4 CONTENEDOR    -->
+		                            <div class="tab-pane" id="address">
+		                                <div class="row" id="tamaño1">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    	<div class="form-group1">
+		                                            <label class="info-text4">Ingrese los datos del inmueble</label>
+		                                            <p class="info-p4">VALOR COMERCIAL DE TU CASA O APARTAMENTO</p>
+		                                            <input name="valorInmueble" class="input-valor" id="valorInmueble" maxlength="15"  onkeyup="validaLimite(this.value)">
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    	<h5 class="info-text4-1">Ubicacion</h5>
+		                                    <p class="info-text4-2">Departamento</p>
+		                                    </div>
+		                                   <div class="col-sm-4 col-sm-offset-1" id="selects1"  >
+		                                        <div class="form-group1 ">
+		                                            <select name="Departamento" id="departamentos" class="input-select"  >
+		                                            </select>
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-4 col-sm-offset-1" id="selects" style=" padding-left: 0px; margin-left: 0px;" >
+		                                    	<p class="info-text4-3">Ciudad</p>
+		                                        <div class="form-group2">
+		                                            <select name="ciudad" id="municipios" class="input-select"  >
+		                                            </select>
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-10 col-sm-offset-1" style=" padding-top: 7px; padding-bottom: 7px;">
+		                                    	
+		                                            
+		                                            <p class="info-p4">DIRECCIÓN DEL INMUEBLE</p>
+		                                            <input name="DireccionInmueble" id="direccion" class="input-valor"  id="DireccionInmueble" required="required" title="Digíta la direccion del inmueble">
+		                                        
+		                                    </div>
+
+
+
+
+		                                
+		                                <div class="pie-formulario"> 
+			                                <div id="siguiente1">
+
+					                              <a class='btn btn-next btn-fill btn-success btn-wd' name='next' onclick="siguiente();" value='Siguiente'  />Siguiente<span class="ti-arrow-right"></span></a>
+					                                
+					                        </div>
+
+			                                <div id="atras1">
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+			                           		</div>
+
+
+		                                 </div>
+		                                 </div>
+		                            	</div>
+		                        <!--  FIN  CONTENIDO 4 CONTENEDOR    -->
+
+
+
+		                        <!--  INICIO  CONTENIDO 5 CONTENEDOR    -->
+		                            <div class="tab-pane" id="resultado">
+			                        	<div class="row" >
+			                        		<div class="col-sm-10 col-sm-offset-1 .col-md-10 col-sm-offset-1 .col-lg-10 col-sm-offset-1" style="text-align: center;">
+			                        			<table class="tabla-cotizacion" >
+			                        				<tr>
+			                        					<td width="68%" >
+			                        						<div class="form-group resultado">
+					                                    		<p class="info-text5">resultado de tu cotización</p><br>
+					                                            <p class="info-p5">Total prima anual:</p>
+					                                            <h4 class="info-text5-1" id="valAnual"></h4>
+					                                            <p class="info-p5-1">IVA INCLUIDO</p>
+					                                            <span class="lineas1" style="color: #D8D8D8;">
+					                                            	------------------------
+					                                            </span>
+					                                            <span class="lineas2" style="color: #D8D8D8;">
+					                                            	------------------------------------
+					                                            </span>
+					                                            
+					                                            <br>
+
+					                                            <p>Total prima mensual:</p>
+					                                            <h4 class="info-text5-2" id="valMen"></h4>
+					                                            <p class="info-p5-1">IVA INCLUIDO</p>
+					                                        </div>
+			                        					</td>
+			                        					<td id="td-img-descargar" id="tamaño1">
+			                        						<a type="button" name="" id="imprimirPDF" value="Descargar cotización" target="_blank">
+                                                            	<img src="images/descarga-cotizacion.png" class="img-descargar">
+                                                        	</a>
+			                        					</td>
+			                        				</tr>
+			                        			</table>
+			                                    	
+			                                    	<a type="button" name="" id="imprimirPDF1" value="Descargar cotización" target="_blank" >
+                                                       <img src="images/descarga-mobile.png" class="img-descargar2">
+                                                    </a>
+			                                    	<p class="condiciones" id="tamaño1">*El valor anual del seguro corresponde a los meses restantes para la finalización de la vigencia (31 julio de cada año). Esta  es una póliza colectiva y  tiene renovación automática.</p>
+			                                </div>
+			                        	</div>    
+
+			                        	<div class="pie-formulario" id="tamaño1"> 
+			                                   	<div id="siguiente1">
+													<a href="#acepto" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Continuar' onclick="MostrarTitulo()"  /></a>
+					                                
+					                            </div>
+
+			                                    <div id="atras1">
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+			                            		</div>
+
+
+		                                   </div>
+
+		                            </div>
+		                         <!--  FIN  CONTENIDO 5 CONTENEDOR    -->
+
+		                        <!--  INICIO  CONTENIDO 6 CONTENEDOR    -->
+		                            <div class="tab-pane" id="finalizar">
+		                                <div class="row finalizar">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    	<h2 class="info-text6"> 
+			                                    	<span class="info-text6" id="nombreUsr"></span> <br>
+			                                		¡Gracias por confiar<br>
+		                                			en nosotros!
+			                                 	</h2>
+				                                 <p class="info-p6-1">Una  vez confirmemos tu compra recibirás<br>
+				                                  un correo electrónico con el certificado de<br>
+				                                  tu Seguro de Hogar en el cual<br>
+				                                  encontrarás las condiciones del producto<br>
+				                                  que acabas de adquirir.
+				                                 </p>
+			                                 	<div class="boton-descarga">
+				                                 	<a type="button" name=""  id="aaa" value="Descargar cotización" href="pdf/prueba.pdf" download="cotización" target="_blank">
+			                                    		<img class="imagen-pdf" src="images/pdf.png">Descargar Condicionado
+			                                    		
+			                                    	</a>
+			                                 	</div>
+		                                    	<br><br>
+		                                    	
+		                                        <br>
+		                                        <br> 
+		                                    </div>
+		                                </div>
+		                            </div>
+		                            <div class="tab-pane" id="finalizar1">
+		                                
+		                                <div class="row finalizar">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    <h2 class="info-text6"> 
+		                                    	<span >Paola de la Roche,</span> <br>
+		                                		
+			                                 </h2>
+			                                 <p class="info-p6-1">sigue los siguientes pasos para<br>
+			                                 	diligenciar, firmar, enviar tu SARLAFT y <br> 
+			                                 	empezar a disfrutar de tu póliza.
+			                                 </p>  
+			                                 
+			                                 <table>
+			                                 	<tr>
+			                                 		<td><h4 class="info-p6">Paso 1</h4></td><td>
+			                                 		
+					                                 <div class="boton-descarga" style="width: 210px!important;">
+					                                 	<a type="button" name=""  id="aaa" value="Descargar cotización" href="pdf/prueba.pdf" download="cotización" target="_blank">
+				                                    	<img class="imagen-pdf" src="images/pdf.png">Descargar formulario
+				                                    	<span class="ti-angle-right"></span>
+				                                    	</a>
+					                                 </div>	
+
+			                                 	</td>
+			                                 	</tr>
+			                                 	<tr>
+			                                 		<td>
+			                                 		<h4 class="info-p6">Paso 2</h4> </td><td><span class="info-p6-1">Diligencia el formulario, imprímelo y fírmalo.</span>
+			                                 		</td>
+			                                 	</tr>
+			                                 	<tr>
+			                                 		<td>
+			                                 		<h4 class="info-p6">Paso 3</h4> </td><td><span class="info-p6-1">Un asesor te contactará para programar<br>
+														fecha y lugar de recolección.</span>
+			                                 	</td>
+			                                 	</tr>
+			                                 	
+			                                 			
+			                                 </table>
+
+ <br><br>
+			                               <div id="siguiente" style="text-align: center;">
+
+									                                <a class='btn1  btn-next btn-fill  btn-wd' name='next'  value='Siguiente' " />Finalizar<span class="ti-arrow-right"></span></a>
+									                                <a href="#finalizar3" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finalizar'  /></a>
+									                            </div>
+		                                    
+		                                   
+		                        
+		                                   
+		                                       <br>
+		                                       <br> 
+		                                    </div>
+		                                </div>
+		                            </div>
+
+		                             <div class="tab-pane" id="finalizar2">
+		                                
+		                                <div class="row finalizar">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    <h2 class="info-text6"> 
+		                                    	Paola de la Roche, <br>
+		                                		¡Gracias por confiar<br>
+		                                		 en nosotros!
+			                                 </h2>
+			                                 <p class="info-p6-1">Un asesor de contactará al número<br>
+												XXX-435-XX54 para diligenciar el SARLAFT.
+			                                 </p>  
+			                                 <p class="info-p6-1">Una  vez confirmemos tu compra recibirás<br>
+			                                  un correo electrónico con el certificado de <br>
+			                                  tu Seguro de Hogar en el cual<br>
+			                                   encontrarás las condiciones del producto<br>
+			                                    que acabas de adquirir.
+			                                 </p> 
+			                                 
+			                                 <div class="boton-descarga">
+			                                 	<a type="button" name=""   href="#finalizar1" data-toggle="tab" onclick="OcultarTitulo()">
+		                                    	<img class="imagen-pdf" src="images/pdf.png">Descargar formulario
+		                                    	<span class="ti-angle-right"></span>
+
+		                                    	
+		                                    </a>
+			                                 </div>	
+		                                    
+		                                    <br><br>
+		                        
+		                                   
+		                                       <br>
+		                                       <br> 
+		                                    </div>
+		                                </div>
+		                            </div>
+
+
+
+		                            <div class="tab-pane" id="finalizar3">
+		                                
+		                                <div class="row finalizar">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    <h2 class="info-text6"> 
+		                                    	Paola de la Roche,<br>
+		                                		¡Gracias por confiar<br>
+		                                		 en nosotros!
+			                                 </h2>
+			                                 
+			                                 <p class="info-p6-1">Una  vez confirmemos tu compra recibirás<br>
+			                                  un correo electrónico con el certificado de <br>
+			                                  tu Seguro de Hogar en el cual<br>
+			                                   encontrarás las condiciones del producto<br>
+			                                    que acabas de adquirir.
+			                                 </p> 
+			                                 
+			                                 <div class="boton-descarga">
+					                                 	<a type="button" name=""  id="aaa" value="Descargar cotización" href="pdf/prueba.pdf" download="cotización" target="_blank">
+				                                    	<img class="imagen-pdf" src="images/pdf.png">Descargar formulario
+				                                    	<span class="ti-angle-right"></span>
+				                                    	</a>
+					                          </div>	
+		                                    
+		                                   
+		                        
+		                                   
+		                                       <br>
+		                                       <br> 
+		                                    </div>
+		                                </div>
+		                            </div>
+
+		                       <!--  FIN  CONTENIDO 6 CONTENEDOR    -->
+
+		                       <!--  INICIO  CONTENIDO 7 CONTENEDOR    -->
+		                            <div class="tab-pane" id="acepto">
+		                            	<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<table class="tabla-form1">
+														<tr>
+															<td>
+																<div class="content">
+															  		<div class="box">
+															  			<table class="tabla-terminos">
+															  				<tr>
+																  				<td class="td-terminos">
+																	     			<input type="checkbox" id="c3" name="cb">
+																	     				<label for="c3" class="terminos">
+																	     			</label>	
+																     			</td>
+															     				<td class="p-terminos1">
+															      					<p>
+															      					Autorizo a Coomeva a cargar el valor de la prima mensual de la Póliza de Hogar en mi estado de cuenta de Asociado.
+															      					</p>
+															     				</td>
+															  				</tr>
+															  			</table>
+															  		</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+															<div class="content">
+															  <div class="box">
+															  	<table class="tabla-terminos">
+															  		<tr>
+															  			<td class="td-terminos" > 
+															  				
+															     			 <input type="checkbox" id="c2" name="cb">
+															     			 <label for="c2" class="terminos">
+															     			 </label>	
+															     		</td>
+															     		<td class="p-terminos">
+															     			 
+															      			<p style="margin-bottom: 0px!important;">
+															      			Acepto 
+
+															      			<a href="pdf/prueba.pdf"  target="_blank">
+																			<span style="color: #919091; ">terminos y condiciones </span>
+
+																			</a>
+															      			
+																			
+
+															      			</p>
+															  				
+															  				
+															     		</td>	 
+															     			
+																	      	
+															  			
+															  		</tr>
+															  		
+															  	</table>
+															    
+															    
+															  </div>
+															</div>
+															</td>
+														</tr>
+														
+													</table>
+													
+													
+												
+													
+													
+										<p style="font-size: 12px;color: #919091; margin: 0 auto; width: 65%!important;"> 
+											la compra del seguro está sujeta a que el Asociado<br>
+											se encuentre al día con Coomeva.</p>
+															  		
+													
+												</div>
+												
+											
+											
+											
+										</div>
+
+										</div><br><br><br><br>
+
+										<div class="pie-formulario" style="margin-top: 30px; padding-right: 10px;"> 
+			                                   	<div id="siguiente1">
+
+					                             <a rel="btnActvar"><input type='button'  class='btn btn-finish btn-fill btn-success btn-wd' name='finish' onclick="OcultarTitulo()" value='Comprar' /></a>
+					                                
+					                            </div>
+
+			                                    <div id="atras1">
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+			                            		</div>
+
+
+		                                  </div>
+
+		                                  
+
+		                            </div>
+
+		                         <!--  FIN  CONTENIDO 7 CONTENEDOR    -->
+
+		                         	<div class="tab-pane" id="activar">
+		                                
+		                                <div class="row finalizar">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                    <h2 class="info-text6"> 
+		                                    	Paola de la Roche<br>
+		                                    	estás a un paso...
+			                                 </h2>
+			                                 <p class="info-p6-1" rel="txtIdentSarlaft">
+			                                 </p>  
+			                                 
+
+			                                   <p rel="txtPregunta" class="info-p6-1" style=" color:#F07D14!important; text-align: center;">
+			                                 </p>  
+
+
+			                                 <div class="boton-asesor">
+		                                    	 <a rel="btnAsllama"  type="button" name=""    href="#finalizar2" data-toggle="tab"></a>
+		                                    </div>
+		                                    
+		                                    <br><br>
+		                                    
+
+			                                 <div class="boton-asesor">
+		                                    	 <a rel="btnViaWeb"  type="button" name=""    href="#finalizar2" data-toggle="tab"></a>
+		                                    </div>
+		                                    
+		                                    <br><br>
+		                                    
+		                                    
+		                                   
+		                                    </div>
+		                                </div>
+		                            </div>
+
+
+		                         </div>
+
+		                     <!--  FIN  CONTENIDO FORMULARIO     -->
+
+
+           
+		                    </form>
+		                </div>
+		            </div> 
+
+		      <!--    FIN CONTENEDOR     -->
+		        </div>
+
+
+		<!--    FIN FORMULARIO     -->        
+
+     	
+	    
+		</div>
+
+
+
+	
+		
+
+		<div class="espacio20"></div>
+
+
+
+	 <!--  INICIO  IMAGEN FUNCION SCROLL  -->	
+		<div class="contenedor-scroll">
+			 <a href="#section02">
+			  	<img src="images/scroll.svg" class="img-scroll">
+			 </a>
+		</div>
+		<!--  FIN  IMAGEN FUNCION SCROLL  -->	
+	</div>
+
+
+
+	
+  
+
+
+	</section>
+	
+<!--    FIN  SECCION 1     -->
+
+<!--      SECCION 2     -->
+
+	<section id="section02">
+	
+	<div class="container-fluid" style="background-color: #fbfbfb;">
+		<br>
+		<div class="col-md-10 col-md-offset-1" >
+			<p class="titulo3">
+				Tu vivienda es única, protégela con nuestra Póliza Hogar Coomeva.<br></p>
+				<p  class="facil">Porque es la mejor forma para que tú y tu familia vivan tranquilos, vivan protegidos.</p>
+			
+				
+			
+		</div>
+
+		<div class="row col-center" >
+			<div class=" col-md-10 col-md-offset-1   col-sm-12 ">
+				<div role="tabpanel" >
+					
+					<ul class="nav nav-tabs" role="tablist" >
+						<li role="presentation" class="active " >
+							<a href="#seccion1" id="a-color" aria-controls="seccion1" data-toggle="tab" role="tab" class="logo1" >
+								<img src="images/nuevo-logo.png">
+								<p class="p-color">
+									¿Por qué comprar <br>
+									<span>un seguro de hogar?</span>
+									
+								</p>
+							</a>
+						</li>
+						<li role="presentation" >
+							<a href="#seccion2" id="a-color" aria-controls="seccion2" data-toggle="tab" role="tab" class="logo1">
+								<img src="images/logo-sombrilla.svg" class="sombrilla">
+								<p class="p-color">
+									<br>
+									<span>Beneficios.</span>
+									
+								</p>
+							</a>
+						</li>
+						<li role="presentation" >
+							<a href="#seccion3" id="a-color" aria-controls="seccion3" data-toggle="tab" role="tab" class="logo1">
+							<img src="images/logo3.svg">
+							<p class="p-color">
+								Principales<br>
+								<span>coberturas.</span>
+								
+							</p>
+							</a>
+						</li>
+						
+					</ul>
+					<div class="col-md-12   col-sm-11 col-10" id="secciones" > 
+					<div class="tab-content tabla-princi">
+
+						
+						
+						<div role="tabpanel" class="tab-pane active" id="seccion1">
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>Preservarás el esfuerzo, tiempo y dedicación que tomaste para contar con tu vivienda.</p>
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							      <p>Porque es el único factor que te aumenta tu bienestar.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>La inversión que hiciste para tu vivienda y lo que hay en ella, estarán bajo el cuidado de una mano experta.</p>
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							      <p class="">Te hará olvidar de cualquier imprevisto que tengas; contarás con beneficios y coberturas exclusivas.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div role="tabpanel" class="tab-pane " id="seccion2">
+							
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								    	<h3>Flexibilidad</h3>
+								      <p>Tú eliges que asegurar, la estructura, el contenido o ambos. Además decides el valor a asegurar, desde $10 millones de valor asegurado.</p>
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							    	<h3>Tranquilidad</h3>
+							      <p>Una protección que se ajusta a tu hogar: asistencias en plomería, electricidad, cerrajería, rotura de vidrios, celaduría y más.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								    	<h3>Facilidad</h3>
+								      <p>Adquiere tu seguro desde la comodidad de tu hogar, sin relación de bienes ni inspección*. Págalo mensualmente a través de tu estado de cuenta de Asociado o de contado en cualquiera de nuestras oficinas.</p>
+								      <h5>*Aplica según políticas de suscripción.</h5>
+
+											
+
+										
+
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							    	<h3>Acompañamiento</h3>
+							      <p class="">Cuentas con un equipo de profesionales dispuesto a ayudarte cuando lo necesites.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+
+
+
+
+
+
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane " id="seccion3">
+							
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>Protección de los bienes de valor que puedes llevar contigo como celulares, portátiles, cámaras, etc.*</p>
+								      <h5>*Aplica en caso de tener contratada la cobertura todo riesgo.</h5>
+
+											
+
+										
+
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body mediah5">
+							      <p class="">Cobertura de gastos de mudanza hasta por $280.000.</p>
+							      <h5>* Aplica si se tiene la cobertura para contenidos y cuando hay cambio de residencia. Un evento por vigencia.</h5>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>Cobertura de urgencias médicas hasta por $1.5 millones por evento en caso de que tus empleados de servicio doméstico sufran algún accidente realizando sus labores*.</p>
+								      <h5>* Máximo dos eventos en el año</h5>
+
+											
+
+										
+
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							      <p class="">Tu hogar protegido para los daños por incendio o inundación.</p>
+							      
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+
+
+
+							
+						</div>
+
+						
+						
+
+
+
+
+
+
+					</div>
+				</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	</section>
+
+<!--    FIN  SECCION 2     -->
+
+
+<!--      SECCION 3     -->
+	<section id="section03">
+	<div class="container">
+		<div class="main row" id="protegido">
+			
+			<div class="col-md-12 circulo1">
+				<p class="titulo4">
+					Vivir con tranquilidad es más fácil <br>
+con Coomeva porque:<br>
+
+				
+					
+
+				</p>
+				
+			</div>
+			
+				
+				<div class="col-md-3    circulo">
+					<img src="images/lider.svg" id="imagen1" >
+					
+					<p class="p-titulo4">
+						<span >Cuidamos tus<br> bienes: </span><br>
+						los artículos que salen de<br> tu hogar también están<br> protegidos.
+
+					</p>
+				</div>
+				<div class="col-md-3  circulo">
+					<img src="images/persona.svg" id="imagen2">
+					<p class="p-titulo4">
+					<span >Amparamos tus<br> accidentes:</span><br>	
+					en caso de rotura de<br> vidrios o unidades<br> sanitarias.
+					</p>
+					
+				</div>
+				<div class="col-md-3   circulo">
+					<img src="images/manos.svg" id="imagen3" >
+					<p class="p-titulo4">
+						<span >	Aseguramos tu<br> bienestar:	
+						</span><br>
+						 entregando múltiples<br> asistencias para todo<br> momento.
+					</p>
+				</div>
+				<div class="col-md-3 circulo">
+					<img src="images/transparente.svg" id="imagen4">
+					<p class="p-titulo4">
+						<span > Cuentas con<br> soporte 24/7:</span><br>
+						disponible para cuando<br> necesites ayuda.<br>
+						<span style="color: #E7792B!important;">Línea exclusiva para<br>
+						 Asociados a Coomeva: #440.</span>
+					</p>
+				</div>
+				
+		</div>
+		
+	</div>
+	</section>
+<!--    FIN  SECCION 3     -->	
+
+
+
+
+
+<!--      SECCION 4     -->
+	<section id="section04">
+<footer class="container-fluid">
+	<div class="main row" >
+		<div class="col-md-1 col-sm-1 col-xs-" id="vigilado1">
+			<img src="images/vigilado.png" class="img-footer">
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs- p-footer  ">
+
+			<h4>Si necesitas ayuda:</h4>
+			<p>Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
+				</p>
+				<br><br><br>
+			<p>Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
+		</div>
+		
+		<div class="col-sm-offset-1 col-md-3 col-sm-3 col-xs-" id="imagenes-footer">
+			<img src="images/vigilado.png" class="img-footer" id="vigilado2">
+			<img src="images/logo-liberty.svg" class="logo-liberty" >
+		</div>
+		
+	</div>
+	
+</footer>
+</section>
+
+<!--    FIN  SECCION 4     -->
+</body>
+
+
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+	<!--  Plugin for the Wizard -->
+	<script src="assets/js/paper-bootstrap-wizard.js" type="text/javascript"></script>
+
+	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+	
+
+</html>
