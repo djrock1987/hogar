@@ -1,0 +1,190 @@
+
+/* CONDICIONES PANTALLA!!!!!!!!!!!!!*//* CONDICIONES PANTALLA!!!!!!!!!!!!!*//* CONDICIONES PANTALLA!!!!!!!!!!!!!*//* CONDICIONES PANTALLA!!!!!!!!!!!!!*/
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1920 PX!!!!!!!!!!*/
+
+
+
+
+@media screen and (max-width:1920px) {
+
+
+.tr-princi{
+  width: 100%!important;
+}
+.nav-tabs{
+  width: 100%;
+}
+
+
+
+
+/*#label-largo{
+  width: 357px;
+}*/
+
+
+.input-select{
+ /* width: 154px;*/
+  padding: 5px;
+}
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1820 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1820px) {
+
+.tr-princi{
+  width: 100%!important;
+}
+.nav-tabs{
+  width: 100%;
+}
+
+
+/*#label-largo{
+  width: 357px;
+}
+
+*/
+
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1730 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1730px) {
+
+.tr-princi{
+  width: 100%!important;
+}
+.nav-tabs{
+  width: 100%;
+}
+
+
+/*#label-largo{
+  width: 357px;
+}
+*/
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1600 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1600px) {
+
+.tr-princi{
+  width: 100%!important;
+}
+.nav-tabs{
+  width: 100%;
+}
+
+/*
+#label-largo{
+  width: 357px;
+}*/
+
+
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+
+
+
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1520 PX!!!!!!!!!!*/
+
+@media screen and (max-width:1520px) {
+
+
+  .tr-princi{
+  width: 100%!important;
+}
+.nav-tabs{
+  width: 100%;
+}
+
+
+/*#label-largo{
+  width: 357px;
+}*/
+
+#siguiente, #atras{
+  padding: 0px!important;
+}
+
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+      
+}
+
+
+
+

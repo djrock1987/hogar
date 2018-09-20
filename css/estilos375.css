@@ -1,0 +1,265 @@
+
+/* VERSION MOBILE TAMAÑO PANTALLA 375 PX!!!!!!!!!!*/
+
+@media screen and (max-width:375px) {  
+#ocultar2 {
+    padding-left: 13px;
+}
+#caja-arrendatario {
+    margin-left: 7%;
+}
+.input-select {
+    width: 290px;
+    height: 46px;
+}
+.img-descargar2 {
+  padding-top: 5px;   
+    height: 49px;
+    width: 259px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.espacio20{
+  display: none;
+}
+input[type="checkbox"] + label:before {
+    
+    width: 20px;
+    height: 20px;
+}
+.img-scroll {
+    display: none;
+  }
+.terminos {
+    font-family: Gill;
+    font-size: 14px!important;
+  }
+.info-text1-1 {
+    text-align: center!important;
+    font-family: Gill;
+    font-size: 18px;   
+    color: #EA7913!important;
+}
+.td-boton{
+  margin: 0 auto;
+}
+.form-control1 {
+    margin-left: 10px;
+    width: 300px;
+    margin-bottom: 5px;
+}  
+.wizard-container {
+    display: inline;
+    z-index: 3;
+    margin-left: 50px;
+}
+#wizardProfile {
+    margin: 0 auto;
+    height: 300px;
+    width: 330px;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}  
+.radio{
+  width: 100%;
+}
+.nav-pills > li > a:after {
+    right: 30px!important;
+}
+.titulo1{
+  float: none;
+    margin: 0 auto;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+}
+.logo1 p{
+  display: none;
+}
+.logo1 {
+  width: 80px;
+}
+ul{
+  display: inline-flex;
+}
+.espacio100{
+  padding: 20px;
+}
+.circulo{
+  display: inline-flex;
+}
+.circuloMedic{
+  display: inline-flex;
+}
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.circuloMedic img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    text-align: left;
+}
+#imagenes-footer{
+        display: inline-flex;
+  }
+.tr-princi{
+    display: inline-grid;
+  }
+.titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+  margin-bottom: 30px;  
+  }
+.titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;  
+}
+.wizard-container{
+  padding-top: 0px!important;
+}
+.espacio50{
+  display: none;
+}
+.terminos span{
+   font-size: 14px;
+}
+.wizard-container{
+      padding-top: 0px!important;
+}
+  .nav-tabs{
+    width: 100%;
+}    
+#caja-propietario{
+    margin-left: 20px!important;
+  }
+.input-valor {
+    padding-left: 10px;
+    width: 290px;
+    height: 46px!important;
+    border-radius: 3px!important;
+    background-color: #ffffff;
+    border: solid 1px #d2d2d2;
+    font-family: Gill;
+    font-size: 18px;
+    color: #807f7f!important;
+}
+.p-radio2{
+    font-size: 12px!important;
+}
+.icono2{
+    padding-left: 90px;
+} 
+.icono3{
+    padding-left: 42px;
+}
+.icono4{
+    padding-right: 17px;
+}
+.btn-success{
+  width: 124px!important;
+}
+.form-control{
+  width: 260px!important;
+  height: 48px!important;
+  } 
+.td-texto{
+      vertical-align: top;
+    margin: 0;
+    padding-right: 5px;
+    width: 220px;
+    padding-top: 0!important;
+}
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+#secciones{
+  padding: 0;
+}
+#img-facilidades{
+  width: 280px;
+    height: 124px;
+}
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+  }
+  .titulo4{
+  padding-top: 34px;
+  width: 295.1px;
+  height: 53px;
+  font-size: 20px;
+  }
+.porque{
+  width: 193.1px;
+  height: 53px;
+  font-size: 16px;
+  }
+.p-titulo4 span{
+  font-size: 18px;
+}
+.p-titulo4 p{
+  font-size: 14px;
+}
+.titulo3{
+  margin-top: 33px;
+}
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+
+#imagenes-footer{
+  width: 300px;
+}
+.quieres2{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.lineas2{
+  display: none;
+}
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+.finalizar p{
+  font-size: 15px!important;
+}
+.p-terminos p{
+  font-family: Gill;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+.p-terminos1 p{
+  font-family: Gill;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+.p-terminos1 span{
+  font-family: Gill;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+.info-text1 {
+    padding-left: 12px;
+}
+}
+

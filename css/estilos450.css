@@ -1,0 +1,42 @@
+
+/* VERSION MOBILE TAMAÑO PANTALLA 420 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:450px) {
+
+.condiciones {
+    color: #6E6F6F;
+    font-size: 10px;
+    padding-top: 5px;
+    
+}
+
+
+.img-descargar2{
+  height: 49px;
+    width: 267px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.lineas1 {
+    display: none;
+    }
+
+.img-descargar {
+    display: none;
+  }
+#td-img-descargar{
+  display: none;
+}
+
+.info-text5 {
+    display: none;
+}
+
+
+.radio{
+  width: 100%;
+}
+ 
+}

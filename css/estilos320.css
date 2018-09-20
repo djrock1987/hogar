@@ -1,0 +1,217 @@
+/* VERSION MOBILE TAMAÑO PANTALLA 320 PX!!!!!!!!!!*/
+@media screen and (min-width: 320px){
+.icono4 {
+    padding-left: 64px;
+    padding-right: 17px;
+}
+.icono2 {
+    padding-left: 70px;
+}
+.form-control1 {
+  /*  margin-left: 0px; 
+    width: 280px;
+    margin-bottom: 5px;*/
+}
+.pie-formulario {
+    width: 100%;
+    margin-top: 20px;
+}
+/*#tamaño{
+  width: 100%;
+}*/
+#tamaño1 {
+  width: 97%;
+}
+/*#icono {
+    padding-left: 16%;
+}*/
+.info-text4-1 {
+   display: none;
+}
+.wizard-card .wizard-title {
+    color: green;
+    font-size: 25px!important;
+    font-weight: 500;
+    margin: 0;
+}
+.radio{
+  width: 100%;
+}
+.titulo1{
+  float: none;
+    margin: 0 auto;
+}
+.titulo3{
+  font-size: 21px;
+  padding: 0px;
+}
+.facil{
+  font-size: 21px!important;
+}
+.p{
+  display: none;
+}
+.quieres{
+  text-align: center;
+  font-size: 18px;
+}
+.logo1 p{
+  display: none;
+}
+.logo1 {
+  width: 80px;
+  box-shadow: 0px 0px 5px 0px rgba (0,0,0,0.75);
+}
+ul{
+  display: inline-flex;
+}
+.espacio100{
+  padding: 20px;
+}
+.circulo{
+  display: inline-flex;
+}
+.circuloMedic{
+  display: inline-flex;
+}
+.circulo img{
+  height: 60px;
+  width: 65px;
+}
+.circuloMedic img{
+  height: 60px;
+  width: 65px;
+}
+.p-titulo4 {
+    padding-left: 20px;
+    text-align: left;
+}
+#imagenes-footer{
+        display: inline-flex;
+}
+.tr-princi{
+    display: inline-grid;
+}
+.titulo1{
+   width: 104.5px;
+  height: 17.8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+  .titulo1 p{
+    padding: 3px;
+   margin-left: -34px;
+  font-size: 10.1px;
+  }
+.wizard-container{
+  padding-top: 0px!important;
+}
+.espacio50{
+  display: none;
+}
+.terminos span{
+  font-size: 14px;
+}
+.wizard-container{
+  padding-top: 0px!important;
+}
+.nav-tabs{
+   width: 300px;
+  }   
+#caja-propietario{
+    margin-left: 25px!important;
+
+    min-height: 0px;
+    padding-left: 0px;
+}
+}
+
+  .p-radio2{
+    font-size: 12px!important;
+  }
+  .icono2{
+    padding-left: 70px;
+  } 
+  .icono3{
+    padding-left: 14px;
+  }
+  .icono4{
+    padding-left: 64px;
+    padding-right: 17px;
+  }
+  .btn-success{
+  width: 124px!important;
+}
+.form-control{
+    width: 260px!important;
+  height: 48px!important;
+  } 
+.td-texto{
+  padding-right: 5px;
+  width: 220px;
+  padding-bottom: 25px;
+}
+.td-texto h5{
+  font-size: 14px;
+  width: 200px;
+}
+#secciones{
+  padding: 0;
+}
+#img-facilidades{
+  width: 300px;
+  height: 164px;
+}
+.valor-asegura{
+      margin-bottom: 10px!important;
+}
+#imagen1, #imagen2, #imagen3, #imagen4{
+    padding-bottom: 0px;
+}
+.titulo4{
+  padding-top: 34px;
+  width: 295.1px;
+  height: 53px;
+  font-size: 20px;
+}
+.porque{
+    width: 193.1px;
+  height: 53px;
+  font-size: 16px;
+  }
+.p-titulo4 span{
+  font-size: 18px;
+}
+.p-titulo4 p{
+  font-size: 14px;
+}
+.titulo3{
+  margin-top: 33px;
+}
+.lineas2{
+  display: none;
+
+}
+.img-descargar{
+  width: 110%;
+    margin-top: 56px;
+}
+.finalizar p{
+  font-size: 15px!important;
+}
+.p-terminos p{
+  font-family: Gill;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+.p-terminos1 p{
+  font-family: Gill;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+.p-terminos1 span{
+  font-family: Gill;
+  font-size: 15px;
+  color: #A8ACAB;
+}
+}

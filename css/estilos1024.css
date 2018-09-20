@@ -1,0 +1,38 @@
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 1024 PX!!!!!!!!!!*/
+
+
+
+
+@media screen and (max-width:1024px) {
+
+.tr-princi{
+  width: 100%!important;
+}
+.nav-tabs{
+  width: 100%;
+}
+
+
+/*
+#label-largo{
+	width: 357px;
+}*/
+
+
+#siguiente, #atras{
+	padding: 12px 0px 5px!important;
+}
+
+#secciones{
+
+      margin-left: 0!important;
+    padding-left: 5!important;
+}
+
+
+      
+}
+
+

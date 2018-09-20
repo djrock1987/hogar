@@ -1,0 +1,77 @@
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 991 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:991px) {
+
+
+.logo-liberty {
+    padding-left: 0px;
+    
+    padding-bottom: 0px;
+
+  }
+
+.radio{
+  width: 100%;
+}
+
+
+
+.img-footer{
+  padding-left: 0px!important;
+}
+
+.logo2{
+  padding: 0px;
+  padding-bottom: 24px!important;
+  padding-left: 3px;
+}
+
+.logo1 > p {
+    font-size: 12px;
+
+}
+
+.nav-tabs{
+      border-bottom: 1px solid #ffffff!important;
+}
+
+#img-facilidades{
+  width: 420px;
+  height: 264px;
+}
+
+
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+
+.condiciones, .lineas1, .lineas2{
+  text-align:justify; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+
+.info-text4{
+  text-align: 
+}
+
+#finalizar, .boton-cotizacion, .boton-descarga{
+  text-align: center;
+    margin: auto;
+}
+}

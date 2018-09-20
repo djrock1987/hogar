@@ -1,0 +1,68 @@
+/* VERSION MOBILE TAMAÑO PANTALLA 650 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:650px) {
+
+.radio{
+  width: 100%;
+}
+
+.form-group{
+  text-align:center; 
+}
+.card-checkboxes{
+    width: 222px!important;
+    height: 140.2px!important
+    
+  }
+  
+
+ 
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+.form-group,.form-group2{
+  text-align: center; 
+}
+
+.info-text4-1,.info-text4-2{
+  text-align:center; 
+}
+.condiciones, .lineas1, .lineas2{
+  text-align:center; 
+}
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+#finalizar, .boton-cotizacion, .boton-descarga{
+  text-align: center;
+    margin: auto;
+}
+.tr-princi{
+  display: inline-grid;
+}
+
+
+   
+  
+
+
+
+#imagenes-footer{
+        display: inline-flex;
+  }
+
+
+}

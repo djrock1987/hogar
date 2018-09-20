@@ -1,0 +1,64 @@
+
+
+/* VERSION MOBILE TAMAÑO PANTALLA 850 PX!!!!!!!!!!*/
+
+
+@media screen and (max-width:850px) {
+
+.radio{
+  width: 100%;
+}
+
+
+
+
+footer{
+  height: 650px!important;
+}
+
+
+.img-footer{
+  padding-left: 0px!important;
+}
+
+.logo2{
+  padding: 0px;
+  padding-bottom: 24px!important;
+  padding-left: 3px;
+}
+
+.logo1 > p {
+    font-size: 12px;
+
+}
+
+.nav-tabs{
+      border-bottom: 1px solid #ffffff!important;
+}
+
+#img-facilidades{
+  width: 420px;
+  height: 264px;
+}
+
+
+
+
+
+.tabla-cotizacion{
+  margin: 0 auto;
+  text-align:center; 
+}
+
+
+.info-text4{
+  text-align: 
+}
+#finalizar, .boton-cotizacion, .boton-descarga{
+  text-align: center;
+    margin: auto;
+}
+
+}
+
+
