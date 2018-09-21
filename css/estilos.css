@@ -1,4 +1,4 @@
-@font-face {
+:@font-face {
   font-family: Gill-Bold;
   src: url('../fuentes-coomeva/Gill-Sans-MT-Bold.ttf');  
 }
@@ -7,8 +7,22 @@
   src: url('../fuentes-coomeva/Gill-Sans-MT.ttf');
 }
 body{
-  font-family: Gill, helvetica;
+  font-family: Gill, Gill-Bold,helvetica;
 }
+
+#tr-cedula{
+  /*display: block;*/
+}
+
+
+.flex{
+  display: flex;
+    flex-flow: row;
+    align-items: baseline;
+}
+
+
+
 /*.media-object{
   width: 28px!important;
   height: 29px;
@@ -16,6 +30,12 @@ body{
 .media-left{
   padding-top: 7px;
 }*/
+
+
+
+
+
+
 .titulo4{
       margin-bottom: 55px;
       padding-top: 40px!important;
@@ -132,9 +152,7 @@ body{
     padding-left: 26%;
 }*/
 
-#tr-cedula{
-  display: block;
-}
+
 
 /*#tamaño {
     width: 100%;
@@ -193,7 +211,7 @@ body{
 
 #wizardProfile{
   height: 234px;
-  width: 600px;
+  width: 100%;
   -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
     transition: height 0.5s;
 }
@@ -212,7 +230,7 @@ body{
 .form-control1{
 
 
-      width: 70%;
+      width: 60%;
       height: 48px!important;
     background-color: white!important;
     float: none;
@@ -238,7 +256,7 @@ label{
 
 
 .btn-NoAsociado{
-  float: right;
+    float: right;
     margin-right: 47px;
     background-color: #00814A!important;
     width: 115px!important;
@@ -246,11 +264,11 @@ label{
     font-size: 14px;
     font-weight: 600;
     padding: 12px 0px;
-  border-radius: 9px;
+    border-radius: 9px;
     padding-right: 20px;
-  color: #ffffff!important;
- cursor: pointer;
-  text-decoration:none!important;
+    color: #ffffff!important;
+    cursor: pointer;
+    text-decoration:none!important;
 }
 
 
@@ -1303,7 +1321,7 @@ font-family: Gill;
 }
 
 #siguiente{
-	padding-right: 49px;
+	/*padding-right: 49px;*/
 	padding-bottom: 44px;
 }
 

@@ -11,6 +11,7 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!-- <link rel="stylesheet"  href="php/prueba.php"> -->
 	<script language="JavaScript"> 
 		
 
@@ -123,25 +124,26 @@
 			<div class="col-lg-5 col-md-6  col-sm-8 col-xs ">
 				<!-- <img src="images/vigilado-principal.svg" id="vigilado" > -->
 				<img src="images/logo-coomeva2.png" id="vigilados" >
-				<div class="" id="espacio"></div>
+		<div class="" id="espacio"></div>
 
 		     <!--    INICIO CONTENEDOR     -->
 		            <div class="wizard-container">
 		                <div class="card wizard-card" data-color="orange" id="wizardProfile">
 		                    <form action="" method="">
-		           
 		                	<!--  INICIO  PARTE PRINCIPAL CONTENEDOR     -->
 		                    	
 		                    	<div class="wizard-header text-center" id="wizard3" style="display: none;" >
 		                        	<h3 class="wizard-title" id="wizard2" >Cotiza el valor<br>
 		                        		<span class="tuseguro">de tu seguro</span>
 		                        	</h3>
+		                        	
 		                    	</div>
-		                    	<!-- <div class="wizard-header text-center" id="wizard4"
+		                    	<div class="wizard-header text-center" id="wizard4" style="display: none;" >
 		                        	<h3 class="wizard-title" id="wizard2" ">Comprar tu seguro<br>
+		                        		
 		                        	</h3>
 		                        	
-		                    	</div> -->
+		                    	</div>
 								<div class="wizard-navigation" id="wizard" style="display: none;">
 									<div class="progress-with-circle" >
 									     <div class="progress-bar" role="progressbar" id="progreso" aria-valuenow="1" aria-valuemin="1" aria-valuemax="3" ></div>
@@ -206,10 +208,6 @@
 			                        </ul>
 								</div>
 							<!--  FIN  PARTE PRINCIPAL CONTENEDOR     -->	
-
-
-
-
 							<!--  INICIO  CONTENIDO FORMULARIO     -->
 		                        <div class="tab-content">
 
@@ -281,25 +279,25 @@
 															</div>
 															<div class="clearfix visible-xs-block"></div>
 
-															<div id="tr-cedula" class="col-sm-12">
-															<td class="digita-documento">
+															<div id="tr-cedula" class="col-sm-12 flex">
+															<!-- <td class="digita-documento"> -->
 																<input  type="text" onkeypress="return valida(event)" class="form-control1" title="Digíta tu numero de documento" name="cedula" id="NumeroCedula" placeholder="Tu número de cédula" required maxlength="12">
 																<label id="notificacion" maxlength="1"></label>
 
 
 
-															</td>
-															<td class="td-boton">
+														<!-- 	</td>
+															<td class="td-boton"> -->
 																<div class="pull-right" id="siguiente" style="margin-left: 10px;">
 
 									                                <a class='btn1  btn-next btn-fill  btn-wd' name='next'  value='Siguiente' onclick="siguiente() "/>Iniciar<span class="ti-angle-right"></span></a>
 									                                <a href="#acepto" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finalizar' onclick="ocultar();" /></a>
 									                            </div>
-															</td>
+															<!-- </td> -->
 														</div>
 														<div class="clearfix visible-xs-block"></div>
 
-														<div class="col-sm-9 col-sm-offset-1">
+														<div class="col-sm-12">
 															<td>
 															<div class="content" id="checkbox">
 															  <div class="box">
@@ -367,6 +365,8 @@
 
 
 		                                   </div>
+		                                     
+		                                
 		                            </div>
 		                           <!--  FIN  CONTENIDO 2 CONTENEDOR    -->
 
@@ -418,7 +418,7 @@
 
 		                                </div>
 		                            </div>
-		                        	<!--  FIN  CONTENIDO 3 CONTENEDOR    -->
+		                        <!--  FIN  CONTENIDO 3 CONTENEDOR    -->
 
 
 		                        <!--  INICIO  CONTENIDO 4 CONTENEDOR    -->
@@ -748,6 +748,9 @@
 
 
 		                                  </div>
+
+		                                  
+
 		                            </div>
 
 		                         <!--  FIN  CONTENIDO 7 CONTENEDOR    -->
@@ -803,6 +806,9 @@
 
 
 		<!--    FIN FORMULARIO     -->        
+
+     	
+	    
 		</div>
 
 
@@ -814,314 +820,413 @@
 
 
 
-
 	 <!--  INICIO  IMAGEN FUNCION SCROLL  -->	
-		<!-- <div class="contenedor-scroll">
+		<div class="contenedor-scroll">
 			 <a href="#section02">
 			  	<img src="images/scroll.svg" class="img-scroll">
 			 </a>
-		</div> -->
+		</div>
 		<!--  FIN  IMAGEN FUNCION SCROLL  -->	
 	</div>
 
+
+
+	
+  
+
+
 	</section>
+	
 <!--    FIN  SECCION 1     -->
 
-
 <!--      SECCION 2     -->
+
 	<section id="section02">
-		<div class="container-fluid" style="background-color: #fbfbfb;">
-			<br>
-			<div class="col-md-10 col-md-offset-1" >
-				<p class="titulo3">
+	
+	<div class="container-fluid" style="background-color: #fbfbfb;">
+		<br>
+		<div class="col-md-10 col-md-offset-1" >
+			<p class="titulo3">
 				Tu vivienda es única, protégela con nuestra Póliza Hogar Coomeva.<br></p>
-				<p  class="facil">Porque es la mejor forma para que tú y tu familia vivan tranquilos, vivan protegidos.</p>	
-			</div>
-			<div class="row col-center" >
-				<div class=" col-md-10 col-md-offset-1   col-sm-12 ">
-					<div role="tabpanel" >
-						
-						<ul class="nav nav-tabs" role="tablist" >
-							<li role="presentation" class="active " >
-								<a href="#seccion1" id="a-color" aria-controls="seccion1" data-toggle="tab" role="tab" class="logo1" >
-									<img src="images/nuevo-logo.png" alt="">
-									<p class="p-color">
-										¿Por qué comprar <br>
-										<span>un seguro de hogar?</span>
-										
-									</p>
-								</a>
-							</li>
-							<li role="presentation" >
-								<a href="#seccion2" id="a-color" aria-controls="seccion2" data-toggle="tab" role="tab" class="logo1">
-									<img src="images/logo-sombrilla.svg" class="sombrilla">
-									<p class="p-color">
-										<br>
-										<span>Beneficios.</span>
-										
-									</p>
-								</a>
-							</li>
-							<li role="presentation" >
-								<a href="#seccion3" id="a-color" aria-controls="seccion3" data-toggle="tab" role="tab" class="logo1">
-								<img src="images/logo3.svg">
+				<p  class="facil">Porque es la mejor forma para que tú y tu familia vivan tranquilos, vivan protegidos.</p>
+			
+				
+			
+		</div>
+
+		<div class="row col-center" >
+			<div class=" col-md-10 col-md-offset-1   col-sm-12 ">
+				<div role="tabpanel" >
+					
+					<ul class="nav nav-tabs" role="tablist" >
+						<li role="presentation" class="active " >
+							<a href="#seccion1" id="a-color" aria-controls="seccion1" data-toggle="tab" role="tab" class="logo1" >
+								<img src="images/nuevo-logo.png">
 								<p class="p-color">
-									Principales<br>
-									<span>coberturas.</span>
+									¿Por qué comprar <br>
+									<span>un seguro de hogar?</span>
 									
 								</p>
-								</a>
-							</li>
-							
-						</ul>
-						<div class="col-md-12   col-sm-11 col-10" id="secciones" > 
-						<div class="tab-content tabla-princi">
-						<div role="tabpanel" class="tab-pane active" id="seccion1">
-								<div class="row tabla-princi1">
-								  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-									  <!-- Left-aligned media object -->
-									  <div class="media">
-									    <div class="media-left">
-									      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-									    </div>
-									    <div class="media-body">
-									      <p>Preservarás el esfuerzo, tiempo y dedicación que tomaste para contar con tu vivienda.</p>
-									    </div>
-									  </div>
-								  </div>
-								  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-								  <!-- Left-aligned media object -->
-								  <div class="media">
-								    <div class="media-left">
-								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-								    </div>
-								    <div class="media-body">
-								      <p>Porque es el único factor que te aumenta tu bienestar.</p>
-								    </div>
-								  </div>
-								  
-								  </div>
-								</div>
-								<div class="row tabla-princi1">
-								  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-									  <!-- Left-aligned media object -->
-									  <div class="media">
-									    <div class="media-left">
-									      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-									    </div>
-									    <div class="media-body">
-									      <p>La inversión que hiciste para tu vivienda y lo que hay en ella, estarán bajo el cuidado de una mano experta.</p>
-									    </div>
-									  </div>
-								  </div>
-								  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-								  <!-- Left-aligned media object -->
-								  <div class="media">
-								    <div class="media-left">
-								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-								    </div>
-								    <div class="media-body">
-								      <p class="">Te hará olvidar de cualquier imprevisto que tengas; contarás con beneficios y coberturas exclusivas.</p>
-								    </div>
-								  </div>
-								  
-								  </div>
-								</div>
-						</div>
-						<div role="tabpanel" class="tab-pane " id="seccion2">	
-							<div class="row tabla-princi1">
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
-									  <!-- Left-aligned media object -->
-									  <div class="media">
-									    <div class="media-left">
-									      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-									    </div>
-									    <div class="media-body">
-									    	<h3>Flexibilidad</h3>
-									      <p>Tú eliges que asegurar, la estructura, el contenido o ambos. Además decides el valor a asegurar, desde $10 millones de valor asegurado.</p>
-									    </div>
-									  </div>
-								  </div>
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
-								  <!-- Left-aligned media object -->
-								  <div class="media">
-								    <div class="media-left">
-								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-								    </div>
-								    <div class="media-body">
-								    	<h3>Tranquilidad</h3>
-								      <p>Una protección que se ajusta a tu hogar: asistencias en plomería, electricidad, cerrajería, rotura de vidrios, celaduría y más.</p>
-								    </div>
-								  </div>
-								  
-								  </div>
-							</div>
-							<div class="row tabla-princi1">
-							<div class="col-xs-10 col-sm-offset-1 col-sm-5">
-									  <!-- Left-aligned media object -->
-							<div class="media">
-										<div class="media-left">
-											<img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-										</div>
-								<div class="media-body">
-									    	<h3>Facilidad</h3>
-									      <p>Adquiere tu seguro desde la comodidad de tu hogar, sin relación de bienes ni inspección*. Págalo mensualmente a través de tu estado de cuenta de Asociado o de contado en cualquiera de nuestras oficinas.</p>
-									      <h5>*Aplica según políticas de suscripción.</h5>
-								</div>
-							</div>
-							</div>
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
-								  <!-- Left-aligned media object -->
-								  <div class="media">
-								    <div class="media-left">
-								      	<img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-								    </div>
-								    <div class="media-body">
-								    	<h3>Acompañamiento</h3>
-								      <p class="">Cuentas con un equipo de profesionales dispuesto a ayudarte cuando lo necesites.</p>
-								    </div>
-								  </div>
-								  </div>
-								</div>
-							</div>
-
-							<div role="tabpanel" class="tab-pane " id="seccion3">
+							</a>
+						</li>
+						<li role="presentation" >
+							<a href="#seccion2" id="a-color" aria-controls="seccion2" data-toggle="tab" role="tab" class="logo1">
+								<img src="images/logo-sombrilla.svg" class="sombrilla">
+								<p class="p-color">
+									<br>
+									<span>Beneficios.</span>
+									
+								</p>
+							</a>
+						</li>
+						<li role="presentation" >
+							<a href="#seccion3" id="a-color" aria-controls="seccion3" data-toggle="tab" role="tab" class="logo1">
+							<img src="images/logo3.svg">
+							<p class="p-color">
+								Principales<br>
+								<span>coberturas.</span>
 								
-								<div class="row tabla-princi1">
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
-									  <!-- Left-aligned media object -->
-									  <div class="media">
-									    <div class="media-left">
-									      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-									    </div>
-									    <div class="media-body">
-									      <p>Protección de los bienes de valor que puedes llevar contigo como celulares, portátiles, cámaras, etc.*</p>
-									      <h5>*Aplica en caso de tener contratada la cobertura todo riesgo.</h5>
+							</p>
+							</a>
+						</li>
+						
+					</ul>
+					<div class="col-md-12   col-sm-11 col-10" id="secciones" > 
+					<div class="tab-content tabla-princi">
 
-												
-
-											
-
-									    </div>
-									  </div>
-								  </div>
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
-								  <!-- Left-aligned media object -->
-								  <div class="media">
-								    <div class="media-left">
-								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-								    </div>
-								    <div class="media-body mediah5">
-								      <p class="">Cobertura de gastos de mudanza hasta por $280.000.</p>
-								      <h5>* Aplica si se tiene la cobertura para contenidos y cuando hay cambio de residencia. Un evento por vigencia.</h5>
-								    </div>
-								  </div>
-								  
-								  </div>
-								</div>
-								<div class="row tabla-princi1">
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
-									  <!-- Left-aligned media object -->
-									  <div class="media">
-									    <div class="media-left">
-									      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
-									    </div>
-									    <div class="media-body">
-									      <p>Cobertura de urgencias médicas hasta por $1.5 millones por evento en caso de que tus empleados de servicio doméstico sufran algún accidente realizando sus labores*.</p>
-									      <h5>* Máximo dos eventos en el año</h5>
-
-												
-
-											
-
-									    </div>
-									  </div>
-								  </div>
-								  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+						
+						
+						<div role="tabpanel" class="tab-pane active" id="seccion1">
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
 								  <!-- Left-aligned media object -->
 								  <div class="media">
 								    <div class="media-left">
 								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
 								    </div>
 								    <div class="media-body">
-								      <p class="">Tu hogar protegido para los daños por incendio o inundación.</p>
-								      
+								      <p>Preservarás el esfuerzo, tiempo y dedicación que tomaste para contar con tu vivienda.</p>
 								    </div>
 								  </div>
-								  
+							  </div>
+							  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							      <p>Porque es el único factor que te aumenta tu bienestar.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+							<div class="row tabla-princi1">
+							  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>La inversión que hiciste para tu vivienda y lo que hay en ella, estarán bajo el cuidado de una mano experta.</p>
+								    </div>
 								  </div>
-								</div>
+							  </div>
+							  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							      <p class="">Te hará olvidar de cualquier imprevisto que tengas; contarás con beneficios y coberturas exclusivas.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
 							</div>
 						</div>
-					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div role="tabpanel" class="tab-pane " id="seccion2">
+							
+							<div class="row tabla-princi1">
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								    	<h3>Flexibilidad</h3>
+								      <p>Tú eliges que asegurar, la estructura, el contenido o ambos. Además decides el valor a asegurar, desde $10 millones de valor asegurado.</p>
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							    	<h3>Tranquilidad</h3>
+							      <p>Una protección que se ajusta a tu hogar: asistencias en plomería, electricidad, cerrajería, rotura de vidrios, celaduría y más.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+							<div class="row tabla-princi1">
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								    	<h3>Facilidad</h3>
+								      <p>Adquiere tu seguro desde la comodidad de tu hogar, sin relación de bienes ni inspección*. Págalo mensualmente a través de tu estado de cuenta de Asociado o de contado en cualquiera de nuestras oficinas.</p>
+								      <h5>*Aplica según políticas de suscripción.</h5>
+
+											
+
+										
+
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							    	<h3>Acompañamiento</h3>
+							      <p class="">Cuentas con un equipo de profesionales dispuesto a ayudarte cuando lo necesites.</p>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+
+
+
+
+
+
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane " id="seccion3">
+							
+							<div class="row tabla-princi1">
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>Protección de los bienes de valor que puedes llevar contigo como celulares, portátiles, cámaras, etc.*</p>
+								      <h5>*Aplica en caso de tener contratada la cobertura todo riesgo.</h5>
+
+											
+
+										
+
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body mediah5">
+							      <p class="">Cobertura de gastos de mudanza hasta por $280.000.</p>
+							      <h5>* Aplica si se tiene la cobertura para contenidos y cuando hay cambio de residencia. Un evento por vigencia.</h5>
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+							<div class="row tabla-princi1">
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+								  <!-- Left-aligned media object -->
+								  <div class="media">
+								    <div class="media-left">
+								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+								    </div>
+								    <div class="media-body">
+								      <p>Cobertura de urgencias médicas hasta por $1.5 millones por evento en caso de que tus empleados de servicio doméstico sufran algún accidente realizando sus labores*.</p>
+								      <h5>* Máximo dos eventos en el año</h5>
+
+											
+
+										
+
+								    </div>
+								  </div>
+							  </div>
+							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
+							  <!-- Left-aligned media object -->
+							  <div class="media">
+							    <div class="media-left">
+							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
+							    </div>
+							    <div class="media-body">
+							      <p class="">Tu hogar protegido para los daños por incendio o inundación.</p>
+							      
+							    </div>
+							  </div>
+							  
+							  </div>
+							</div>
+
+
+
+							
+						</div>
+
+						
+						
+
+
+
+
+
+
 					</div>
 				</div>
-			</div>	
+				</div>
+			</div>
+			
 		</div>
+		
+	</div>
 	</section>
+
 <!--    FIN  SECCION 2     -->
+
 
 <!--      SECCION 3     -->
 	<section id="section03">
-		<div class="container">
-			<div class="main row" id="protegido">
-				<div class="col-md-12 circulo1">
-					<p class="titulo4">
-						Vivir con tranquilidad es más fácil <br>con Coomeva porque:<br>
+	<div class="container">
+		<div class="main row" id="protegido">
+			
+			<div class="col-md-12 circulo1">
+				<p class="titulo4">
+					Vivir con tranquilidad es más fácil <br>
+con Coomeva porque:<br>
+
+				
+					
+
+				</p>
+				
+			</div>
+			
+				
+				<div class="col-xs-12 col-md-3  circulo">
+					<img src="images/lider.svg" id="imagen1" >
+					
+					<p class="p-titulo4">
+						<span >Cuidamos tus<br> bienes: </span><br>
+						los artículos que salen de<br> tu hogar también están<br> protegidos.
+
 					</p>
 				</div>
-				<div class="col-xs-12 col-md-3  circulo">
-					<img src="images/lider.svg" id="imagen1" >	
-						<p class="p-titulo4">
-							<span >Cuidamos tus<br> bienes: </span><br>
-							los artículos que salen de<br> tu hogar también están<br> protegidos.
-						</p>
-				</div>
 				<div class="col-xs-12 col-md-3 circulo">
-						<img src="images/persona.svg" id="imagen2">
-						<p class="p-titulo4">
-						<span >Amparamos tus<br> accidentes:</span><br>	
-						en caso de rotura de<br> vidrios o unidades<br> sanitarias.
-						</p>		
+					<img src="images/persona.svg" id="imagen2">
+					<p class="p-titulo4">
+					<span >Amparamos tus<br> accidentes:</span><br>	
+					en caso de rotura de<br> vidrios o unidades<br> sanitarias.
+					</p>
+					
 				</div>
 				<div class="col-xs-12 col-md-3  circulo">
 					<img src="images/manos.svg" id="imagen3" >
-						<p class="p-titulo4"><span >	Aseguramos tu<br> bienestar:	
-							</span><br>entregando múltiples<br> asistencias para todo<br> momento.
-						</p>
+					<p class="p-titulo4">
+						<span >	Aseguramos tu<br> bienestar:	
+						</span><br>
+						 entregando múltiples<br> asistencias para todo<br> momento.
+					</p>
 				</div>
 				<div class="col-xs-12 col-md-3 circulo">
 					<img src="images/transparente.svg" id="imagen4">
-					<p class="p-titulo4"><span > Cuentas con<br> soporte 24/7:</span><br>
-						disponible para cuando<br> necesites ayuda.<br><span style="color: #E7792B!important;">Línea exclusiva para<br>Asociados a Coomeva: #440.</span>
-						</p>
-					</div>
+					<p class="p-titulo4">
+						<span > Cuentas con<br> soporte 24/7:</span><br>
+						disponible para cuando<br> necesites ayuda.<br>
+						<span style="color: #E7792B!important;">Línea exclusiva para<br>
+						 Asociados a Coomeva: #440.</span>
+					</p>
 				</div>
-			</div>
+				
 		</div>
+		
+	</div>
 	</section>
 <!--    FIN  SECCION 3     -->	
 
+
+
+
+
 <!--      SECCION 4     -->
-<section id="section04">
-	<footer class="container-fluid">
-		<div class="main row" >
-			<div class="col-md-1 col-sm-1 col-xs-" id="vigilado1">
-				<img src="images/vigilado.png" class="img-footer">
-			</div>
-			<div class="col-md-6 col-sm-6 col-xs- p-footer  ">
-				<h4>Si necesitas ayuda:</h4>
-				<p>Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
-					</p>
-					<br><br><br>
-				<p>Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
-			</div>
-			<div class="col-sm-offset-1 col-md-3 col-sm-3 col-xs-" id="imagenes-footer">
-				<img src="images/vigilado.png" class="img-footer" id="vigilado2">
-				<img src="images/logo-liberty.svg" class="logo-liberty" >
-			</div>
+	<section id="section04">
+<footer class="container-fluid">
+	<div class="main row" >
+		<div class="col-md-1 col-sm-1 col-xs-" id="vigilado1">
+			<img src="images/vigilado.png" class="img-footer">
 		</div>
-	</footer>
+		<div class="col-md-6 col-sm-6 col-xs- p-footer  ">
+
+			<h4>Si necesitas ayuda:</h4>
+			<p>Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
+				</p>
+				<br><br><br>
+			<p>Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
+		</div>
+		
+		<div class="col-sm-offset-1 col-md-3 col-sm-3 col-xs-" id="imagenes-footer">
+			<img src="images/vigilado.png" class="img-footer" id="vigilado2">
+			<img src="images/logo-liberty.svg" class="logo-liberty" >
+		</div>
+		
+	</div>
+	
+</footer>
 </section>
 
 <!--    FIN  SECCION 4     -->
