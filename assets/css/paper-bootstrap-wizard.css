@@ -12,6 +12,17 @@
  
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
+
+@font-face {
+  font-family: Gill-Bold;
+  src: url('../../fuentes-coomeva/Gill-Sans-MT-Bold.ttf');
+  
+}
+@font-face {
+  font-family: Gill;
+  src: url('../../fuentes-coomeva/Gill-Sans-MT.ttf');
+  
+}
  .wizard-navigation{
   width: 70%;
   float: right;
@@ -121,7 +132,7 @@ margin-left: 50px;
     background-color: #F07D14;
     font-size: 18px;
     font-weight: 600;
-    padding: 11px 18px 17px;
+    padding: 11px 18px 15px;
     border-radius: 5px;
     color: #ffffff!important;
     -webkit-transition: all 150ms linear;
@@ -132,15 +143,16 @@ margin-left: 50px;
     text-decoration: none!important;
     line-height: 10px;
     letter-spacing: 2px;
+    font-family: Gill;
 }
 
 .btn1:hover {
-  color:#c5c5c5c5!important;
+  color:#ffffff!important;
   
 }
 
 .pull-right{
-  height: 60px;
+  height: 39px;
 }
 
 
@@ -180,7 +192,7 @@ margin-left: 50px;
 
 /*     General overwrite     */
 body{
-  background-color: #e57936;
+  background-color: #F47A20;
 }
 
 
@@ -388,7 +400,7 @@ body{
 }
 
 .card p{
-  color: gray!important;
+  color: gray;
 }
 
 .radio{
@@ -471,6 +483,15 @@ body{
   padding-top: 24px;
 }
 
+.btn-wd {
+    min-width: 140px;
+    float: left;
+    padding: 15px 0;
+    width: 90%;
+    margin-left: 10%;
+    text-align: center;
+    cursor: pointer;
+}
 
 .wizard-card .icon-circle {
   font-size: 20px;
@@ -623,7 +644,5 @@ body{
     padding-right: 5px;
   }
 
-  .btn-wd {
-    min-width: 140px;
-  }
+
 }

@@ -36,8 +36,8 @@
 	function funcion1 (){
 			if ($(window).width() == 411){
 			
-			$("#wizardProfile").css("width",$(window).width()-37);
-			$("#NumeroCedula").css("width",$(window).width()-56);
+			// $("#wizardProfile").css("width",$(window).width()-37);
+			// $("#NumeroCedula").css("width",$(window).width()-56);
 			$("#caja-arrendatario").css("margin-left","22px");
 			// $("#label-largo").css("margin-left","7px");
 			$(".icono3").css("padding-left","61px");
@@ -230,7 +230,7 @@
 														
 														<br><br>
 
-														<a type='button'  class=' btn-NoAsociado' onclick="refrescar()" /><span class="ti-arrow-left"></span>Volver</a>
+														<a type='button'  class=' btn-NoAsociado' onclick="refrescar()" /><span class="ti-angle-left"></span>Volver</a>
 												</div>
 											</div>
 										</div>
@@ -255,7 +255,7 @@
 														
 														<br><br><br><br>
 
-														<a type='button'  class=' btn-NoAsociado' onclick="refrescar()" /><span class="ti-arrow-left"></span>Volver</a>
+														<a type='button'  class=' btn-NoAsociado' onclick="refrescar()" /><span class="ti-angle-left"></span>Volver</a>
 
 
 												</div>
@@ -280,7 +280,7 @@
 															</div>
 															<div class="clearfix visible-xs-block"></div>
 
-															<div id="tr-cedula" class="col-sm-12">
+															<div id="tr-cedula" class="col-sm-12 linear-bot">
 															<td class="digita-documento">
 																<input  type="text" onkeypress="return valida(event)" class="form-control1" title="Digíta tu numero de documento" name="cedula" id="NumeroCedula" placeholder="Tu número de cédula" required maxlength="12">
 																<label id="notificacion" maxlength="1"></label>
@@ -298,13 +298,13 @@
 														</div>
 														<div class="clearfix visible-xs-block"></div>
 
-														<div class="col-sm-12">
+														<div class="col-sm-11 col-sm-offset-1">
 															<td>
 															<div class="content" id="checkbox">
 															  <div class="box">
 															    <p>
 															      <input type="checkbox" id="c1" name="cb" class="micheckbox">
-															      <label for="c1" class="terminos">Acepta &nbsp; 
+															      <label for="c1" class="terminos">Acepto &nbsp; 
 															      	<a href="pdf/prueba.pdf"  target="_blank">
 																	<span style="color: #919091; "> política de privacidad y tratamiento de datos. </span>
 																	</a>
@@ -361,7 +361,7 @@
 					                            </div>
 
 			                                    <div id="atras1" style="   ">
-			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd' onclick="atras ()" name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd' onclick="atras ()" name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
 			                            		</div>
 
 
@@ -378,21 +378,21 @@
 		                                    <div class="col-sm-12 tamaño" id="asegurar" >
 		                                    	<form class="radio2">	
 		                                    		 <input  id="m5" type="radio" name="sexo1" style="display: none;" value="h">  
-													<label for="m5" class="card1 card-checkboxes1 card-hover-effect col-sm-10" id="label-largo">
+													<label for="m5" class="card1 card-checkboxes1 card-hover-effect col-sm-10 col-sm-offset-1" id="label-largo">
 														<i class="ti-home icono3"></i><i class="ti-harddrives icono1"></i>
 														<p class="p-radio2">
 															<span>INMUEBLE Y CONTENIDO</span>
 														</p>
 						                            </label>
 			                                        <input  id="m3" type="radio" name="sexo1" style="display: none;"  value="h">  
-													<label for="m3" class="card1 card-checkboxes1 card-hover-effect col-sm-10" id="label-largo" style="opacity: 0;">
+													<label for="m3" class="card1 card-checkboxes1 card-hover-effect col-sm-10 col-sm-offset-1" id="label-largo" style="opacity: 0;">
 						                                <i class="ti-home icono2"></i>
 														<p class="p-radio2">
 															<span>EL INMUEBLE</span>
 														</p>
 						                            </label>
 						                            <input  id="m4" type="radio" name="sexo1" style="display: none;" value="h">  
-													<label for="m4" class="card1 card-checkboxes1 card-hover-effect col-sm-10" id="label-largo" style="opacity: 0;">
+													<label for="m4" class="card1 card-checkboxes1 card-hover-effect col-sm-10 col-sm-offset-1" id="label-largo" style="opacity: 0;">
 														<i class="ti-harddrives icono4"></i>
 														<p class="p-radio2">
 															<span>EL CONTENIDO</span>
@@ -410,7 +410,8 @@
 					                            </div>
 
 			                                    <div id="atras1">
-			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+					                                
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
 			                            		</div>
 
 
@@ -476,7 +477,8 @@
 					                        </div>
 
 			                                <div id="atras1">
-			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+					                                
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
 			                           		</div>
 
 
@@ -494,7 +496,7 @@
 			                        			<div class="col-sm-6 ">
 			                        					<td>
 			                        						<div class="form-group resultado">
-					                                    		<p class="info-text5">resultado de tu cotización</p><br>
+					                                    		<!-- <p class="info-text5">resultado de tu cotización</p><br> -->
 					                                            <p class="info-p5">Total prima anual:</p>
 					                                            <h4 class="info-text5-1 resultado2" id="valAnual" style="color: gray!important;"></h4>
 					                                            <p class="info-p5-1">IVA INCLUIDO</p>
@@ -502,14 +504,14 @@
 					                                            	------------------------
 					                                            </span>
 					                                            <span class="lineas2" style="color: #D8D8D8;">
-					                                            	------------------------------------
+					                                            	-----------------------------
 					                                            </span>
 					                                            
 					                                            <br>
 
-					                                            <p>Total prima mensual:</p>
+					                                            <p class="naranja">Total prima mensual:</p>
 					                                            <h4 class="info-text5-2" id="valMen"></h4>
-					                                            <p class="info-p5-1">IVA INCLUIDO</p>
+					                                            <p class="info-p5-1 naranja">IVA INCLUIDO</p>
 					                                        </div>
 			                        					</td>
 			                        					<td id="td-img-descargar" id="tamaño1">
@@ -518,10 +520,10 @@
 			                        			</div>
 			                        			<div class="col-sm-4 col-md-offset-2">
 			                                    	<a type="button" name="" id="imprimirPDF" value="Descargar cotización" target="_blank">
-                                                            	<img src="images/descarga-cotizacion.png" class="img-descargar">
+                                                            	<img src="images/descarga-cotizacion.png" class="img-descargar pdf">
                                                         	</a>
 			                                    	<a type="button" name="" id="imprimirPDF1" value="Descargar cotización" target="_blank" >
-                                                       <img src="images/descarga-mobile.png" class="img-descargar2">
+                                                       <img src="images/descarga-mobile.png" class="img-descargar2 ">
                                                     </a>
                                                 </div>
                                                 <div class="clearfix visible-xs-block"></div>
@@ -538,7 +540,8 @@
 					                            </div>
 
 			                                    <div id="atras1">
-			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+					                                
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
 			                            		</div>
 		                                   </div>
 		                            </div>
@@ -709,7 +712,7 @@
 											  <div class="media">
 													    <div class="media-middle">
 																<input type="checkbox" id="c3" name="cb">
-																<label for="c3" class="terminos">		</label>
+																<label for="c3" class="terminos top">		</label>
 													    </div>
 													    <div class="media-body">
 													      <p>Autorizo a Coomeva a cargar el valor de la prima mensual de la Póliza de Hogar en mi estado de cuenta de Asociado.</p>
@@ -719,7 +722,7 @@
 											  <div class="media">
 												    <div class="media-middle">
 															<input type="checkbox" id="c2" name="cb">
-																<label for="c2" class="terminos">
+																<label for="c2" class="terminos top">
 																</label>
 												    </div>
 											    <div class="media-body">
@@ -744,7 +747,8 @@
 					                            </div>
 
 			                                    <div id="atras1">
-			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-arrow-left"></span>Atrás</a>
+					                                
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
 			                            		</div>
 
 
@@ -863,7 +867,7 @@
 						<li role="presentation" class="active " >
 							<a href="#seccion1" id="a-color" aria-controls="seccion1" data-toggle="tab" role="tab" class="logo1" >
 								<img src="images/nuevo-logo.png">
-								<p class="p-color">
+								<p class="p-color hidden-xs">
 									¿Por qué comprar <br>
 									<span>un seguro de hogar?</span>
 									
@@ -873,7 +877,7 @@
 						<li role="presentation" >
 							<a href="#seccion2" id="a-color" aria-controls="seccion2" data-toggle="tab" role="tab" class="logo1">
 								<img src="images/logo-sombrilla.svg" class="sombrilla">
-								<p class="p-color">
+								<p class="p-color hidden-xs">
 									<br>
 									<span>Beneficios.</span>
 									
@@ -883,7 +887,7 @@
 						<li role="presentation" >
 							<a href="#seccion3" id="a-color" aria-controls="seccion3" data-toggle="tab" role="tab" class="logo1">
 							<img src="images/logo3.svg">
-							<p class="p-color">
+							<p class="p-color hidden-xs">
 								Principales<br>
 								<span>coberturas.</span>
 								
@@ -1142,14 +1146,14 @@
 
 
 <!--      SECCION 3     -->
-	<section id="section03">
-	<div class="container">
+	<section id="section03" class="hidden-xs">
+		<div class="container">
 		<div class="main row" id="protegido">
 			
 			<div class="col-md-12 circulo1">
 				<p class="titulo4">
 					Vivir con tranquilidad es más fácil <br>
-con Coomeva porque:<br>
+					con Coomeva porque:<br>
 
 				
 					
@@ -1159,7 +1163,7 @@ con Coomeva porque:<br>
 			</div>
 			
 				
-				<div class="col-xs-12 col-md-3  circulo">
+				<div class="col-xs-6 col-md-3  circulo">
 					<img src="images/lider.svg" id="imagen1" >
 					
 					<p class="p-titulo4">
@@ -1168,7 +1172,7 @@ con Coomeva porque:<br>
 
 					</p>
 				</div>
-				<div class="col-xs-12 col-md-3 circulo">
+				<div class="col-xs-6 col-md-3 circulo">
 					<img src="images/persona.svg" id="imagen2">
 					<p class="p-titulo4">
 					<span >Amparamos tus<br> accidentes:</span><br>	
@@ -1176,7 +1180,8 @@ con Coomeva porque:<br>
 					</p>
 					
 				</div>
-				<div class="col-xs-12 col-md-3  circulo">
+				 <div class="clearfix visible-xs-block"></div>
+				<div class="col-xs-6 col-md-3  circulo">
 					<img src="images/manos.svg" id="imagen3" >
 					<p class="p-titulo4">
 						<span >	Aseguramos tu<br> bienestar:	
@@ -1184,7 +1189,86 @@ con Coomeva porque:<br>
 						 entregando múltiples<br> asistencias para todo<br> momento.
 					</p>
 				</div>
-				<div class="col-xs-12 col-md-3 circulo">
+				<div class="col-xs-6 col-md-3 circulo">
+					<img src="images/transparente.svg" id="imagen4">
+					<p class="p-titulo4">
+						<span > Cuentas con<br> soporte 24/7:</span><br>
+						disponible para cuando<br> necesites ayuda.<br>
+						<span style="color: #E7792B!important;">Línea exclusiva para<br>
+						 Asociados a Coomeva: #440.</span>
+					</p>
+				</div>
+				
+		</div>
+		
+	</div>
+	</section>
+<!--    FIN  SECCION 3     -->	
+
+
+<!--      SECCION 3     -->
+	<section id="section03" class="visible-xs-*">
+		<div class="container">
+		<div class="main row" id="protegido">
+			
+
+				 <!--  <div class="media">
+				    <div class="media-left media-top">
+				      <img src="img_avatar1.png" class="media-object" style="width:80px">
+				    </div>
+				    <div class="media-body">
+				      <h4 class="media-heading">Media Top</h4>
+				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				    </div>
+				  </div> -->
+
+
+
+
+
+
+			<div class="col-md-12 circulo1">
+				<p class="titulo4">
+					Vivir con tranquilidad es más fácil <br>
+					con Coomeva porque:<br>
+
+				
+					
+
+				</p>
+				
+			</div>
+			
+				
+				<div class="col-xs-6 col-md-3  circulo">
+					<img src="images/lider.svg" id="imagen1" >
+					
+					<p class="p-titulo4">
+						<span >Cuidamos tus<br> bienes: </span><br>
+						los artículos que salen de<br> tu hogar también están<br> protegidos.
+
+					</p>
+				</div>
+				<div class="col-xs-6 col-md-3 circulo">
+					<img src="images/persona.svg" id="imagen2">
+					<p class="p-titulo4">
+					<span >Amparamos tus<br> accidentes:</span><br>	
+					en caso de rotura de<br> vidrios o unidades<br> sanitarias.
+					</p>
+					
+				</div>
+				 <div class="clearfix visible-xs-block"></div>
+				<div class="col-xs-6 col-md-3  circulo">
+					<img src="images/manos.svg" id="imagen3" >
+					<p class="p-titulo4">
+						<span >	Aseguramos tu<br> bienestar:	
+						</span><br>
+						 entregando múltiples<br> asistencias para todo<br> momento.
+					</p>
+				</div>
+				<div class="col-xs-6 col-md-3 circulo">
 					<img src="images/transparente.svg" id="imagen4">
 					<p class="p-titulo4">
 						<span > Cuentas con<br> soporte 24/7:</span><br>
@@ -1208,22 +1292,23 @@ con Coomeva porque:<br>
 	<section id="section04">
 <footer class="container-fluid">
 	<div class="main row" >
-		<div class="col-md-1 col-sm-1 col-xs-" id="vigilado1">
+		<div class="col-md-1 col-sm-1 col-xs-1" id="vigilado1">
 			<img src="images/vigilado.png" class="img-footer">
 		</div>
-		<div class="col-md-6 col-sm-6 col-xs- p-footer  ">
+		<div class="col-md-6 col-sm-6 col-xs-10 p-footer  ">
 
-			<h4>Si necesitas ayuda:</h4>
-			<p>Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
+			<h4 style="color: #ffffff">Si necesitas ayuda:</h4>
+			<p style="color: #ffffff">Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
 				</p>
-				<br><br><br>
-			<p>Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
+				<br><br><br><br><br>
+			<p class="visible-xs-*" style="color: #ffffff !important">Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
 		</div>
 		
 		<div class="col-sm-offset-1 col-md-3 col-sm-3 col-xs-" id="imagenes-footer">
 			<img src="images/vigilado.png" class="img-footer" id="vigilado2">
 			<img src="images/logo-liberty.svg" class="logo-liberty" >
 		</div>
+
 		
 	</div>
 	
