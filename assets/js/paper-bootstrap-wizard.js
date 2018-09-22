@@ -185,12 +185,16 @@ transparent = true;
 
 
 }else{
+    document.getElementById('wizardProfile').style.height = "200px";
+    document.getElementById('termi').style.width = '100%';
+    document.getElementById('termi').style.margin = '2px';
     document.getElementById('NumeroCedula').style.display = 'block';
     document.getElementById('NumeroCedula').style.margin = '0px';
     document.getElementById('NumeroCedula-error').style.margin = '0px';
     document.getElementsByClassName('form-control1').style.margin = "0px"; 
     document.getElementsByClassName('form-control1-error').style.margin = "0px"; 
     document.getElementsByClassName('error').style.margin = "0px"; 
+    
 
 
 }
@@ -207,16 +211,17 @@ function NoAsociado(){
 function atras(){
            
 
-
+         document.getElementById('esperando').style.display = "block"; 
         document.getElementById('poliza').style.display = 'block';
         document.getElementById('tucasa').style.display = 'block';
-        document.getElementById('wizardProfile').style.height = "300px";    
+        document.getElementById('wizardProfile').style.height = "200px";    
         document.getElementById('progreso').style.display = 'none';
         document.getElementById('wizard').style.display = 'none';
         document.getElementById('wizard3').style.display = 'none';
 
 
 }
+
 
 
 

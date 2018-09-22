@@ -129,7 +129,7 @@
 		     <!--    INICIO CONTENEDOR     -->
 		            <div class="wizard-container">
 		                <div class="card wizard-card" data-color="orange" id="wizardProfile">
-		                    <form action="" method="">
+		                  <form action="" method="">
 		                <!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
 		                	<!--  INICIO  PARTE PRINCIPAL CONTENEDOR     -->
 		                    	
@@ -272,39 +272,33 @@
 											<div class="col-sm-12" id="tamaño">
 												<div class="form-group">
 													<div class="tabla-form" id="tabla-cedula">
-														<div class="col-sm-12">
+														<div id="cont-tt" class="col-sm-12">
 															
 																<h3 class="info-text1-1" id="cotizaSeguro">Cotiza tu seguro:</h3>
 																<label class="info-text1" id="DigitaCedula">Ingresa tu número de cédula</label>
 															
-															</div>
-															<div class="clearfix visible-xs-block"></div>
-
-															<div id="tr-cedula" class="col-sm-12 linear-bot">
-															<td class="digita-documento">
-																<input  type="text" onkeypress="return valida(event)" class="form-control1" title="Digíta tu numero de documento" name="cedula" id="NumeroCedula" placeholder="Tu número de cédula" required maxlength="12">
-																<label id="notificacion" maxlength="1"></label>
-
-
-
-															</td>
-															<td class="td-boton">
-																<div class="pull-right" id="siguiente" style="margin-left: 10px;">
-
-									                                <a class='btn1  btn-next btn-fill  btn-wd' name='next'  value='Siguiente' onclick="siguiente() "/>Iniciar<span class="ti-angle-right"></span></a>
-									                                <a href="#acepto" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finalizar' onclick="ocultar();" /></a>
-									                            </div>
-															</td>
 														</div>
 														<div class="clearfix visible-xs-block"></div>
+															<div id="tr-cedula" class="col-sm-12 linear-bot">
+																<div class="digita-documento">
+																	<input  type="text" onkeypress="return valida(event)" class="form-control1" title="Digíta tu numero de documento" name="cedula" id="NumeroCedula" placeholder="Tu número de cédula" required maxlength="12">
+																		<label id="notificacion" maxlength="1"></label>
+																</div>
+																<div class="td-boton">
+																	<div  id="siguiente" >
 
+										                                <a class='btn1  btn-next btn-fill  btn-wd' name='next'  value='Siguiente' onclick="siguiente() "/>Iniciar<span class="ti-angle-right"></span></a>
+										                                <a href="#acepto" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finalizar' onclick="ocultar();" /></a>
+										                            </div>
+																</div>
+															</div>
+															<div class="clearfix visible-xs-block"></div>
 														<div class="col-sm-11 col-sm-offset-1">
-															<td>
 															<div class="content" id="checkbox">
 															  <div class="box">
 															    <p>
 															      <input type="checkbox" id="c1" name="cb" class="micheckbox">
-															      <label for="c1" class="terminos">Acepto &nbsp; 
+															      <label for="c1" class="terminos" id="termi">Acepto &nbsp; 
 															      	<a href="pdf/prueba.pdf"  target="_blank">
 																	<span style="color: #919091; "> política de privacidad y tratamiento de datos. </span>
 																	</a>
@@ -312,7 +306,6 @@
 															    </p>
 															  </div>
 															</div>
-															</td>
 														</div>
 													</div>
 					
@@ -714,7 +707,7 @@
 																<input type="checkbox" id="c3" name="cb">
 																<label for="c3" class="terminos top">		</label>
 													    </div>
-													    <div class="media-body">
+													    <div class="media-body" >
 													      <p>Autorizo a Coomeva a cargar el valor de la prima mensual de la Póliza de Hogar en mi estado de cuenta de Asociado.</p>
 													    </div>
 											  </div>
@@ -990,7 +983,7 @@
 								    <div class="media-left">
 								      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
 								    </div>
-								    <div class="media-body">
+								    <div class="media-body" >
 								    	<h3>Flexibilidad</h3>
 								      <p>Tú eliges que asegurar, la estructura, el contenido o ambos. Además decides el valor a asegurar, desde $10 millones de valor asegurado.</p>
 								    </div>
@@ -999,10 +992,10 @@
 							  <div class="col-xs-10 col-sm-offset-1 col-sm-5">
 							  <!-- Left-aligned media object -->
 							  <div class="media">
-							    <div class="media-left">
+							    <div class="media-left" >
 							      <img src="images/logo-circulo.svg" class="media-object" style="width:20px">
 							    </div>
-							    <div class="media-body">
+							    <div class="media-body" >
 							    	<h3>Tranquilidad</h3>
 							      <p>Una protección que se ajusta a tu hogar: asistencias en plomería, electricidad, cerrajería, rotura de vidrios, celaduría y más.</p>
 							    </div>
@@ -1146,11 +1139,11 @@
 
 
 <!--      SECCION 3     -->
-	<section id="section03" class="hidden-xs">
+	<section id="section03" >
 		<div class="container">
 		<div class="main row" id="protegido">
 			
-			<div class="col-md-12 circulo1">
+			<div class="col-md-12 col-xs-12 circulo1">
 				<p class="titulo4">
 					Vivir con tranquilidad es más fácil <br>
 					con Coomeva porque:<br>
@@ -1163,7 +1156,7 @@
 			</div>
 			
 				
-				<div class="col-xs-6 col-md-3  circulo">
+				<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 circulo">
 					<img src="images/lider.svg" id="imagen1" >
 					
 					<p class="p-titulo4">
@@ -1172,7 +1165,7 @@
 
 					</p>
 				</div>
-				<div class="col-xs-6 col-md-3 circulo">
+				<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 circulo">
 					<img src="images/persona.svg" id="imagen2">
 					<p class="p-titulo4">
 					<span >Amparamos tus<br> accidentes:</span><br>	
@@ -1181,7 +1174,7 @@
 					
 				</div>
 				 <div class="clearfix visible-xs-block"></div>
-				<div class="col-xs-6 col-md-3  circulo">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 circulo">
 					<img src="images/manos.svg" id="imagen3" >
 					<p class="p-titulo4">
 						<span >	Aseguramos tu<br> bienestar:	
@@ -1189,7 +1182,7 @@
 						 entregando múltiples<br> asistencias para todo<br> momento.
 					</p>
 				</div>
-				<div class="col-xs-6 col-md-3 circulo">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 circulo">
 					<img src="images/transparente.svg" id="imagen4">
 					<p class="p-titulo4">
 						<span > Cuentas con<br> soporte 24/7:</span><br>
@@ -1204,87 +1197,6 @@
 	</div>
 	</section>
 <!--    FIN  SECCION 3     -->	
-
-
-<!--      SECCION 3     -->
-	<section id="section03" class="visible-xs-*">
-		<div class="container">
-		<div class="main row" id="protegido">
-			
-
-				 <!--  <div class="media">
-				    <div class="media-left media-top">
-				      <img src="img_avatar1.png" class="media-object" style="width:80px">
-				    </div>
-				    <div class="media-body">
-				      <h4 class="media-heading">Media Top</h4>
-				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				    </div>
-				  </div> -->
-
-
-
-
-
-
-			<div class="col-md-12 circulo1">
-				<p class="titulo4">
-					Vivir con tranquilidad es más fácil <br>
-					con Coomeva porque:<br>
-
-				
-					
-
-				</p>
-				
-			</div>
-			
-				
-				<div class="col-xs-6 col-md-3  circulo">
-					<img src="images/lider.svg" id="imagen1" >
-					
-					<p class="p-titulo4">
-						<span >Cuidamos tus<br> bienes: </span><br>
-						los artículos que salen de<br> tu hogar también están<br> protegidos.
-
-					</p>
-				</div>
-				<div class="col-xs-6 col-md-3 circulo">
-					<img src="images/persona.svg" id="imagen2">
-					<p class="p-titulo4">
-					<span >Amparamos tus<br> accidentes:</span><br>	
-					en caso de rotura de<br> vidrios o unidades<br> sanitarias.
-					</p>
-					
-				</div>
-				 <div class="clearfix visible-xs-block"></div>
-				<div class="col-xs-6 col-md-3  circulo">
-					<img src="images/manos.svg" id="imagen3" >
-					<p class="p-titulo4">
-						<span >	Aseguramos tu<br> bienestar:	
-						</span><br>
-						 entregando múltiples<br> asistencias para todo<br> momento.
-					</p>
-				</div>
-				<div class="col-xs-6 col-md-3 circulo">
-					<img src="images/transparente.svg" id="imagen4">
-					<p class="p-titulo4">
-						<span > Cuentas con<br> soporte 24/7:</span><br>
-						disponible para cuando<br> necesites ayuda.<br>
-						<span style="color: #E7792B!important;">Línea exclusiva para<br>
-						 Asociados a Coomeva: #440.</span>
-					</p>
-				</div>
-				
-		</div>
-		
-	</div>
-	</section>
-<!--    FIN  SECCION 3     -->	
-
-
 
 
 
@@ -1295,23 +1207,23 @@
 		<div class="col-md-1 col-sm-1 col-xs-1" id="vigilado1">
 			<img src="images/vigilado.png" class="img-footer">
 		</div>
-		<div class="col-md-6 col-sm-6 col-xs-10 p-footer  ">
+		<div class="col-md-6 col-sm-6 col-xs-11 p-footer  ">
 
-			<h4 style="color: #ffffff">Si necesitas ayuda:</h4>
-			<p style="color: #ffffff">Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
+			<h4>Si necesitas ayuda:</h4>
+			<p>Marca desde tu celular al #440 o desde cualquier lugar del país 01 8000 939 938,
 				</p>
-				<br><br><br><br><br>
-			<p class="visible-xs-*" style="color: #ffffff !important">Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
+				<br><br>
+			<p class="visible-xs-*" id="reservados">Todos los derechos reservados 2018, Coomeva Corredores de Seguros.</p>	
 		</div>
 		
-		<div class="col-sm-offset-1 col-md-3 col-sm-3 col-xs-" id="imagenes-footer">
+		<div class="col-sm-offset-1 col-md-3 col-sm-3 col-xs-12" id="imagenes-footer">
 			<img src="images/vigilado.png" class="img-footer" id="vigilado2">
-			<img src="images/logo-liberty.svg" class="logo-liberty" >
+			<img src="images/logo-liberty.png" class="logo-liberty" >
 		</div>
 
 		
 	</div>
-	
+	<br><br>
 </footer>
 </section>
 
