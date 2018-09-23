@@ -7,7 +7,7 @@
         .circulo{border: none;}.choice{border: none;}
         .btn-success{background-color: background: rgba(112,148,83,1)!important;color: white!important;border: none!important;border-radius: 8px!important; height: 44px;}
         .resultado{text-align: left;}
-        .resultado h4{color: #E7792B;padding: 0;margin: 0;font-size: 32px;}
+        .resultado h4{color: #E7792B;padding: 0;margin: 0;font-size: 36px;}
         .resultado2 h4{color: #c5c5c5;padding: 0;margin: 0;font-size: 32px;}
         .boton1{background-color: green;color: white;width: 200px;height: 41px;border-radius: 10px;}
         .boton2{background-color: white;color: green;width: 200px;height: 41px;border-radius: 10px;border:2px solid green;}

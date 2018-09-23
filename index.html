@@ -317,11 +317,12 @@
 
 		                        <!--  INICIO  CONTENIDO 2 CONTENEDOR    -->
 		                            <div class="tab-pane" id="tipo-cliente">
-		                            	<div class="espacio20"></div>
+		                            	<div class="espacio40"></div>
+
 		                                <h5 class="info-text2"> ¿Qué te identifica mejor? </h5>
 		                                <div class="row " id="tamaño">
-		                                	<div class="espacio20"></div>
-		                                    <div class="col-sm-12 .col-md-12 .col-lg-12 radio" id="tamaño">
+		                                	
+		                                    <div class="col-sm-11 radio marginl-10" id="tamaño">
 
 		                                    	<form>
 												  	<input id="m1" type="radio" style="display: none;" name="sexo1"  value="m">
@@ -428,34 +429,28 @@
 		                                    </div>
 		                                    <div class="clearfix visible-xs-block"><br></div>
 
-		                                    <div class="col-sm-10 col-sm-offset-1">
-		                                    	<br>
-		                                    	<!-- <h5 class="info-text4-1">Ubicacion</h5>
-		                                    	<p class="info-text4-2">Departamento</p> -->
-		                                    </div>
+		                                    
 		                                     <div class="clearfix visible-xs-block"></div>
-												<div class="col-sm-11 col-sm-offset-1	">
-		                                   <div class="col-sm-6 " id="selects1"  >
-		                                   	<p class="info-text4-2">Departamento</p>
-		                                        <div class="form-group1 ">
-		                                            <select name="Departamento" id="departamentos" class="input-select"  >
-		                                            </select>
-		                                        </div>
-		                                    </div>
-		                                    <div class="col-sm-6 col-sm-offset-" id="selects2" >
-		                                    	<p class="info-text4-2">Ciudad</p>
-		                                        <div class="form-group2">
-		                                            <select name="ciudad" id="municipios" class="input-select"  >
-		                                            </select>
-		                                        </div>
-		                                    </div>
-		                                </div>
-		                                    <div class="col-sm-11 col-sm-offset-1">
+											<div class="col-sm-11 col-sm-offset-1">
+			                                   <div class="col-sm-6" id="selects1"  >
+			                                   		<p class="info-text4-2">Departamento</p>
+				                                        <div class="form-group1">
+				                                            <select name="Departamento" id="departamentos" class="input-select"  >	
+				                                            </select>
+				                                        </div>
+			                                    </div>
+			                                    <div class="col-sm-6 col-sm-offset-" id="selects2" >
+			                                    	<p class="info-text4-2">Ciudad</p>
+			                                        <div class="form-group2">
+			                                            <select name="ciudad" id="municipios" class="input-select"  >
+			                                            </select>
+			                                        </div>
+			                                    </div>
+		                              		  </div>
+		                                    <div class="col-sm-11 col-sm-offset-1 botom-40">
 		                                    	<br>
-		                                            
 		                                            <p class="info-text4-2">DIRECCIÓN DEL INMUEBLE</p>
 		                                            <input name="DireccionInmueble" id="direccion" class="input-valor valor-asegura"  id="DireccionInmueble" required="required" title="Digíta la direccion del inmueble">
-		                                        
 		                                    </div>
 
 
@@ -471,7 +466,7 @@
 
 			                                <div id="atras1">
 					                                
-			                                		<a type='button' id="ocultar2" class='btn btn-previous  btn-wd'  name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
+			                                		<a type='button' id="ocultar2" class='btn btn-previous  atrasinmu'  name='previous' value='Atrás' /><span class="ti-angle-left"></span>Atrás</a>
 			                           		</div>
 
 
@@ -487,7 +482,6 @@
 			                        	<div class="row" >
 			                        		<div class="col-sm-10 col-sm-offset-1 .col-md-10 col-sm-offset-1 .col-lg-10 col-sm-offset-1" style="text-align: center;">
 			                        			<div class="col-sm-6 ">
-			                        					<td>
 			                        						<div class="form-group resultado">
 					                                    		<!-- <p class="info-text5">resultado de tu cotización</p><br> -->
 					                                            <p class="info-p5">Total prima anual:</p>
@@ -506,12 +500,10 @@
 					                                            <h4 class="info-text5-2" id="valMen"></h4>
 					                                            <p class="info-p5-1 naranja">IVA INCLUIDO</p>
 					                                        </div>
-			                        					</td>
-			                        					<td id="td-img-descargar" id="tamaño1">
-			                        						
-			                        					</td>
+			                        					
+			                        					
 			                        			</div>
-			                        			<div class="col-sm-4 col-md-offset-2">
+			                        			<div class="col-sm-4 col-md-offset-1">
 			                                    	<a type="button" name="" id="imprimirPDF" value="Descargar cotización" target="_blank">
                                                             	<img src="images/descarga-cotizacion.png" class="img-descargar pdf">
                                                         	</a>
@@ -520,13 +512,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="clearfix visible-xs-block"></div>
-                                                <div class="col-sm-12">
-			                                    	<p class="condiciones" id="tamaño1">*El valor anual del seguro corresponde a los meses restantes para la finalización de la vigencia (31 julio de cada año). Esta  es una póliza colectiva y  tiene renovación automática.</p>
+                                                <div class="col-sm-12 botom-40">
+			                                    	<p class="condiciones" id="">*El valor anual del seguro corresponde a los meses restantes para la finalización de la vigencia (31 julio de cada año). Esta  es una póliza colectiva y  tiene renovación automática.</p>
 			                                </div>
 			                            </div>
 			                        	</div>    
 
-			                        	<div class="pie-formulario" id="tamaño1"> 
+			                        	<div class="pie-formulario" id=""> 
 			                                   	<div id="siguiente1">
 													<a href="#acepto" data-toggle="tab"><input type='button' id="ocultar" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Continuar' onclick="MostrarTitulo()"  /></a>
 					                                
@@ -549,12 +541,14 @@
 			                                		¡Gracias por confiar<br>
 		                                			en nosotros!
 			                                 	</h2>
-				                                 <p class="info-p6-1">Una  vez confirmemos tu compra recibirás<br>
-				                                  un correo electrónico con el certificado de<br>
-				                                  tu Seguro de Hogar en el cual<br>
-				                                  encontrarás las condiciones del producto<br>
+			                                 	<div class="botom-20"></div>
+				                                 <p class="info-p6-1">Una vez confirmemos tu compra recibirás
+				                                  un correo electrónico con el certificado de
+				                                  tu Seguro de Hogar en el cual
+				                                  encontrarás las condiciones del producto
 				                                  que acabas de adquirir.
 				                                 </p>
+				                                 <div class="botom-40"></div>
 			                                 	<div class="boton-descarga">
 				                                 	<a type="button" name=""  id="aaa" value="Descargar cotización" href="pdf/prueba.pdf" download="cotización" target="_blank">
 			                                    		<img class="imagen-pdf" src="images/pdf.png">Descargar Condicionado
@@ -705,7 +699,7 @@
 											  <div class="media">
 													    <div class="media-middle">
 																<input type="checkbox" id="c3" name="cb">
-																<label for="c3" class="terminos top">		</label>
+																<label for="c3" class="terminos">		</label>
 													    </div>
 													    <div class="media-body" >
 													      <p>Autorizo a Coomeva a cargar el valor de la prima mensual de la Póliza de Hogar en mi estado de cuenta de Asociado.</p>
@@ -715,7 +709,7 @@
 											  <div class="media">
 												    <div class="media-middle">
 															<input type="checkbox" id="c2" name="cb">
-																<label for="c2" class="terminos top">
+																<label for="c2" class="terminos">
 																</label>
 												    </div>
 											    <div class="media-body">
