@@ -66,7 +66,7 @@ transparent = true;
 
                   //check number of tabs and fill the entire row
                   var $total = navigation.find('li').length;
-                  $width = 80/$total;
+                  $width = 100/$total;
 
                   navigation.find('li').css('width',$width + '%');
 
@@ -111,7 +111,7 @@ transparent = true;
               /* FUNCION CANTIDAD DE RECORRIDO EN LA BARRA DE PROCESO  */
 
                     //update progress
-                    var move_distance = 140 / 5;
+                    var move_distance = 150 / 5;
                     
 
                     move_distance = move_distance * (index) + move_distance / 7;

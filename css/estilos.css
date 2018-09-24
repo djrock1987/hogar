@@ -101,10 +101,12 @@ body{background-color: #f47a20;}
 .boton-descarga span{font-size: 10px;}
 .contratar{padding-top: 40px;}
 #ocultar2{border: none;padding-left: 0;}
-.boton-asesor {margin: 0 auto;text-align: center;color: #f47a20!important;width: 265px;height: 45px;border-radius: 10px;border: 2px solid #f47a20;padding-left: 9px;padding-top: 7px;}
-.boton-asesor a {color: #f47a20!important;}
+.boton-asesor {margin: 0 auto;text-align: center;color: #f47a20!important;/*width: 265px*/;height: 45px;border-radius: 10px;border: 2px solid #9B9B9B;padding-left: 9px;padding-top: 7px;}
+.boton-asesor:hover{color: #f47a20!important;border: 2px solid #f47a20;}
+.boton-asesor a {color: #9B9B9B!important;}
+.boton-asesor a:hover {color: #f47a20!important;text-decoration: none;}
 .boton-asesor span{font-size: 10px;}
-.boton-asesor a:hover{text-decoration: none;color: green;}
+/*.boton-asesor a:hover{text-decoration: none;color: green;}*/
 .boton-cotizacion{color: green;width: 200px;height: 41px;border-radius: 10px;border: 2px solid green;padding-left: 9px;padding-top: 7px;}
 .boton-cotizacion a{color:green;}
 .boton-cotizacion span{font-size: 10px;}
@@ -245,7 +247,7 @@ input[type=radio]:checked + label:before {/* background: #eff2ef; */color: #f47a
 /*Responsive section*/
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-#wizardProfile{height: 234px;width: 500px;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */transition: height 0.5s;}
+#wizardProfile{height: 200px;width: 500px;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */transition: height 0.5s;}
 #siguiente {padding-right: 0px;padding-bottom: 0px;}
 .form-control1 {/*width: 65%;*/}
 .linear-bot{display: flex;flex-flow: row;align-items: baseline;}
@@ -263,6 +265,10 @@ input[type=radio]:checked + label:before {/* background: #eff2ef; */color: #f47a
 	#reservados {margin-top: 62px;}
 	#seccion2 .media{padding-left: 35px;}
 	#seccion3 .media{padding-left: 35px;}
+	.digita-documento {/*width: 90%;*/float: left;margin-right: 20px;}
+	.td-boton {width: 0%;float: left;display: block;}
+ 	#caja-propietario {margin-bottom: 50px;text-align: center;padding-top: 20px;margin-left: 50px;}
+	#label-largo {width: 396px;height: 58.5px;margin-left: 63px;}
 	/*
   .wizard-container {margin-left: 0px; }
   #wizardProfile{margin-top: 100px;height: 234px;width: 100%;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 *//*transition: height 0.5s;}
@@ -270,16 +276,14 @@ input[type=radio]:checked + label:before {/* background: #eff2ef; */color: #f47a
 }
 
 @media screen and (min-width: 412px) and (max-width: 560px){
-	
-
 	.logo-coomeva {margin-top: 22.6px;width: 380px;height: 93px;object-fit: contain;padding-left: 31px;}
 	#intro{background: url("../images/fondo-mobile.png")no-repeat center center ;width: 100%;height: 100vh;background-size: cover;}
 	.titulo2-p {font-family: Gill-Bold;font-size: 28px; text-align: center; padding-left: 0;width: 97%;}
 	.titulo2-p span{width: 100%;font-size: 16px;text-align: center;}
 	.titulo2 {text-align: center;font-size: 24px;padding: 0;margin-bottom: 15px;}
 	.titulo4 {font-size: 20px;}
-	#seccion3 .media {padding-left: 27px;}
-	#seccion2 .media {padding-left: 27px;}
+	#seccion3 .media {padding-left: 0px;}
+	#seccion2 .media {padding-left: 0px;}
 	.nav>li>a>img {padding: 0;margin: 0 auto;max-width: none;}
 	.active {border: 4px solid #F47A20;border-radius: 8px;}
 	.facil {font-size: 16px;}
@@ -287,13 +291,17 @@ input[type=radio]:checked + label:before {/* background: #eff2ef; */color: #f47a
 	footer{float: left;display: block;}	
 	#vigilado1{position: absolute;left: -31px;}
 	#reservados{margin-top: 62px;}
-  div#imagenes-footer {position: absolute;width: 72%;}
-  #wizardProfile{margin-top: 0px;height: 200px;width: 380px;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */transition: height 0.5s; margin-left: 0px;} 
-  .form-control1 {width: 100%;}
-  #imagenes-footer {padding-top: 30%;}
-  #imagen4 {margin-bottom: 0px;}
- 
-  .logo1 img {padding-left: 29%;}*/
+    div#imagenes-footer {position: absolute;width: 72%;}
+    #wizardProfile{margin-top: 0px;height: 200px;width: 100%;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */transition: height 0.5s; margin-left: 0px;} 
+    .form-control1 {width: 100%;}
+    #imagenes-footer {padding-top: 30%;}
+    #imagen4 {margin-bottom: 0px;}
+    .logo1 img {padding-left: 29%;}
+    #caja-propietario {margin-bottom: 20px;text-align: center;padding-top: 20px;margin-left: 20px;}
+    #label-largo {width: 310px;height: 58.5px;margin-left: 40px;}
+    .card .card-checkboxes {margin: 0px;width: 160px!important;height: 125px!important; }
+    .finalizar p {color: gray;font-size: 19px;padding-bottom: 0px !important;}
+	.info-text6 {margin-top: 0 !important;}	
 }
 
 @media screen and (min-width: 320px) and (max-width: 411px){
@@ -313,31 +321,42 @@ input[type=radio]:checked + label:before {/* background: #eff2ef; */color: #f47a
 	footer{float: left;display: block;}	
 	#vigilado1{position: absolute;}
 	#reservados{margin-top: 62px;}
-  div#imagenes-footer {position: absolute;width: 100%;}
-  #wizardProfile{margin-top: 0px;height: 305px;width: 100%;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */transition: height 0.5s; margin-left: 0px;} 
-  .form-control1 {width: 100%;}
-  .linear-bot{flex-flow: column;}
-  .btn1 {margin-left: -12px;padding: 11px 82px 15px;}
-  .logo1 img {margin:0 auto;}
-  .logo-liberty {width: 50%;height: auto;position: absolute;left: 70px;top: 145px;}
-  .img-footer {padding-left: 0px;}
-  .logo-coomeva {width: 276px;}
-  #tr-cedula{display: grid;}
-  #checkbox{font-size: 12px;width: 88%; text-align: left;}
-  .terminos{text-align: left;}
-  .form-control1{width: 260px;}
-  #cedula{    padding-left: 7px;}
-  .td-boton{margin: 0 auto; width: 124px;}
-  #siguiente .btn-wd{margin-left: 0px; min-width: 124px;}
-  .td-boton{padding-top: 13px;}
-  .terminos {display: inline;}
-  input[type="checkbox"] + label:before {content: "\00a0";display: inline-block;font: 22px/1em sans-serif;width: 20px;height: 20px;margin: 10px 20px 0 0;vertical-align: top;border-radius: 6px;background-color: #eff2ef;line-height: 30px;float: left;}
-  .titulo3{padding-top: 65%;}
-  #cedula #tamaño{width: 300px;}
-  .tabla-princi1{width: 300px;}
-  .media-body p {font-size: 14px; width: 200px;}
-  .media-body{width: 200px;}
-   .media-body {overflow: none!important;}
+  	div#imagenes-footer {position: absolute;width: 100%;}
+  	#wizardProfile{margin-top: 0px;height: 305px;width: 100%;-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */transition: height 0.5s; margin-left: 0px;} 
+  	.form-control1 {width: 100%;}
+  	.linear-bot{flex-flow: column;}
+  	.btn1 {margin-left: -12px;padding: 11px 82px 15px;}
+  	.logo1 img {margin:0 auto;}
+  	.logo-liberty {width: 50%;height: auto;position: absolute;left: 70px;top: 145px;}
+  	.img-footer {padding-left: 0px;}
+  	.logo-coomeva {width: 276px;}
+  	#tr-cedula{display: grid;}
+  	#checkbox{font-size: 12px;width: 100%; text-align: left;}
+  	.terminos{text-align: left;}
+  	.form-control1{width: 260px;}
+  	#cedula{    padding-left: 7px;}
+  	.td-boton{margin: 0 auto; width: 124px;}
+  	#siguiente .btn-wd{margin-left: 0px; min-width: 124px;}
+  	.td-boton{padding-top: 13px;}
+  	.terminos {display: inline;}
+  	input[type="checkbox"] + label:before {content: "\00a0";display: inline-block;font: 22px/1em sans-serif;width: 20px;height: 20px;margin: 10px 10px 0 0;vertical-align: top;border-radius: 6px;background-color: #eff2ef;line-height: 20px;float: left;}
+  	.titulo3{padding-top: 65%;}
+  	#cedula #tamaño{width: 270px;}
+  	.tabla-princi1{width: 270px;}
+  	.media-body p {font-size: 14px; width: 200px;}
+  	.media-body{width: 200px;}
+   	.media-body {overflow: none!important;}
+	.card .card-checkboxes {margin: 0px;width: 140px!important;height: 145px!important;}
+	#caja-propietario {margin-bottom: 20px;text-align: center;padding-top: 20px;margin-left: 10px;}
+	#label-largo {width: 90%;height: 58.5px;margin-left: 20px;}
+    .p-radio2 {font-family: Gill;font-size: 10px;}
+	.info-p6-1{font-size: 15px;}
+	.info-p6 {font-size: 11px;}
+	.condiciones{color: #6E6F6F !important;font-size: 11px;/*padding-top: 15px;padding-left: 15px;padding-right: 15px;*/margin-top: 0;text-align: left !important;}
+	.boton-descarga {width: 240px;border: 1px solid #f47a20;text-align: center;height: 40px;background-color: #f47a20!important;border-radius: 10px;border: 1px solid #f47a20;padding-left: 9px;padding-top: 7px;}
+	.boton-asesor a {color: #9B9B9B!important;font-size: 12px}
+	.boton-descarga2{width: 160px!important;font-size: 10px;} 
+
 }
 
 

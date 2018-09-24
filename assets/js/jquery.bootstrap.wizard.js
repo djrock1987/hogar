@@ -140,13 +140,13 @@ function validaLimite(limite) {
                         else if (dataSarlaft == "2") {
                             $('[rel=btnActvar]').prop('href', '#activar');
                             $('[rel=txtIdentSarlaft]').html('');
-                            $('[rel=txtIdentSarlaft]').html('Idetificamos que el formulario de SARLAFT<br> asociado a tu documento requiere una <br> actualización.');
+                            $('[rel=txtIdentSarlaft]').html('Identificamos que no cuentas con tu formulario de conocimiento del cliente (SARLAFT) diligenciado:');
                             $('[rel=txtPregunta]').html('');
-                            $('[rel=txtPregunta]').html('¿Cómo quieres actualizar tu formulario?');
+                            $('[rel=txtPregunta]').html('¿Cómo quieres actualizar tu información?');
                             $('[rel=btnAsllama]').html('');
                             $('[rel=btnAsllama]').html('Quiero que un asesor me llame <span class="ti-angle-right"></span>');
                             $('[rel=btnViaWeb]').html('');
-                            $('[rel=btnViaWeb]').html('Quiero hacerlo vía web <span class="ti-angle-right"></span>');
+                            $('[rel=btnViaWeb]').html('Quiero descargarlo y que sea recogido <span class="ti-angle-right"></span>');
                             $('[rel=btnDescRecog]').css('display', 'none');
                         }
                         else {
