@@ -115,4 +115,6 @@ body{background-color: #F47A20;}
     .resultado h4 {color: #E7792B;padding: 0;margin: 0;font-size: 18px;}
     .info-p5 {font-family: Gill;font-size: 15px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #a5a7a6;}
     .finalizar p{font-size: 14px;padding-bottom: 0px;}
+    .btn-wd {min-width: 115px;float: left;padding: 13px 0;width: 74%;margin-left: 10%;text-align: center;cursor: pointer;
+}
 }

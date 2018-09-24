@@ -23,7 +23,7 @@
 			// $("#label-largo").css("width",$(window).width()-50);
 			$(".card1").css("width",$(window).width()-50);
 			$(".input-valor").css("width",$(window).width()-57);
-			$(".input-select").css("width",$(window).width()-57);
+			// $(".input-select").css("width",$(window).width()-57);
 
 
 
@@ -47,7 +47,7 @@
 			$(".card1").css("margin-left","7px");
 
 			$(".input-valor").css("width","334px");
-			$(".input-select").css("width","334px");
+			// $(".input-select").css("width","334px");
 
 			
 
@@ -72,6 +72,9 @@
 			
 
 	}
+
+// para bloquear vista landscape
+
 
 
 
@@ -427,11 +430,11 @@
 		                                            <input name="valorInmueble" class="input-valor" id="valorInmueble" maxlength="15"  onkeyup="validaLimite(this.value)">
 		                                        </div>
 		                                    </div>
-		                                    <div class="clearfix visible-xs-block"><br></div>
+		                                    <div class="clearfix visible-xs-block"></div>
 
 		                                    
 		                                     <div class="clearfix visible-xs-block"></div>
-											<div class="col-sm-11 col-sm-offset-1">
+											<div class="col-xs-12">
 			                                   <div class="col-xs-6" id="selects1"  >
 			                                   		<p class="info-text4-2">Departamento</p>
 				                                        <div class="form-group1">
@@ -447,7 +450,7 @@
 			                                        </div>
 			                                    </div>
 		                              		  </div>
-		                                    <div class="col-sm-11 col-sm-offset-1 botom-40">
+		                                    <div class="col-xs-12 botom-40">
 		                                    	<br>
 		                                            <p class="info-text4-2">DIRECCIÓN DEL INMUEBLE</p>
 		                                            <input name="DireccionInmueble" id="direccion" class="input-valor valor-asegura"  id="DireccionInmueble" required="required" title="Digíta la direccion del inmueble">

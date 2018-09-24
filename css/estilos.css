@@ -355,8 +355,18 @@ input[type=radio]:checked + label:before {/* background: #eff2ef; */color: #f47a
 	.condiciones{color: #6E6F6F !important;font-size: 11px;/*padding-top: 15px;padding-left: 15px;padding-right: 15px;*/margin-top: 0;text-align: left !important;}
 	.boton-descarga {width: 240px;border: 1px solid #f47a20;text-align: center;height: 40px;background-color: #f47a20!important;border-radius: 10px;border: 1px solid #f47a20;padding-left: 9px;padding-top: 7px;}
 	.boton-asesor a {color: #9B9B9B!important;font-size: 12px}
-	.boton-descarga2{width: 160px!important;font-size: 10px;} 
-
+	.boton-descarga2{width: 160px!important;font-size: 10px;}
+	.media-body h5{margin: 0;/*width: 300px*/;height: 22px;font-family: Gill;font-size: 12px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: ##f47a20;text-align: left;} 
+	.media-body h5{margin: 0;width: 200px;height: 22px;font-family: Gill;font-size: 12px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: ##f47a20;text-align: left;}
+	.media-body h3{margin: 0;width: 200px;height: 22px;font-family: Gill;font-size: 20px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: #f47a20;text-align: left;}
+	.form-group1 select, .form-group2 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    background: transparent url(../images/selects.png) no-repeat 90% center;
+    font-size: 10px;
+}
 }
 
 
